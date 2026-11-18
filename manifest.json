@@ -722,11 +722,11 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/cpp/abseil.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "d75764c092dcd4c514c33e695ab304f06d8d869a",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/cpp/api-docs-link.md": {
       "status": "skip",
@@ -1053,25 +1053,25 @@
       "translator": null
     },
     "reference/cpp/arenas.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "31f5afaaa2bc6ee9318d86a77434ffa3b3839720",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/cpp/cpp-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f59ce21d1c32ee3b24ec07c7c2b3e415f509ca46",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/cpp/string-view.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "59de82bae0e1a1a6f64f0c98d9e4712170217492",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/csharp/_index.md": {
       "status": "skip-partial",
@@ -1090,11 +1090,11 @@
       "notes": "API 文档跳转占位页（manualLink 跳转，无正文）；title 为语言名+API 组合，无需翻译——与 forum-link.md 同性质，Phase 0 遗漏项补确认"
     },
     "reference/csharp/csharp-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "8d2c8ca518d6786df10c3fcf95bc3d719084a679",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/dart/_index.md": {
       "status": "skip-partial",
@@ -1113,11 +1113,11 @@
       "notes": "API 文档跳转占位页（manualLink 跳转，无正文）；title 为语言名+API 组合，无需翻译——与 forum-link.md 同性质，Phase 0 遗漏项补确认"
     },
     "reference/dart/dart-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "52e1e16da51889d6e4227070f7f66aa868afe3da",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/go/_index.md": {
       "status": "skip-partial",
