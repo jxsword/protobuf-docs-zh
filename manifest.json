@@ -1592,25 +1592,25 @@
       "translator": "agent"
     },
     "reference/protobuf/proto2-spec.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "a482122486101741ea354bd3ede0fa32f3a17b32",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/protobuf/proto3-spec.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "9ff6379933305c4526bba191e9964dd0133f4918",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/protobuf/textformat-spec.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "e64bba6672dcc448c7bbc1d1b9d65fa1bafc83ae",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/python/_index.md": {
       "status": "skip-partial",
@@ -1629,18 +1629,18 @@
       "notes": "API 文档跳转占位页（manualLink 跳转，无正文）；title 为语言名+API 组合，无需翻译——与 forum-link.md 同性质，Phase 0 遗漏项补确认"
     },
     "reference/python/python-comparison.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "586eca4b5d3e98fc59214de7c48f083a787d0b32",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/python/python-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "0ee1bed93fed57cea4bf422ace66f68d61af46ed",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/ruby/_index.md": {
       "status": "skip-partial",
@@ -1651,11 +1651,11 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/ruby/ruby-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f029c5f7dce66097755a1fe8f5648673a310b745",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/rust/_index.md": {
       "status": "skip-partial",
@@ -1666,32 +1666,32 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/rust/building-rust-protos.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "8ec52118e757c1bbd5ae3302d98b344dd679985e",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/rust/rust-design-decisions.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "8ee0da7f1c1dcfbb170f12d47ef34acc3bdd20ea",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/rust/rust-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f9e2c1adf4816f5ac0348857524883a56b3a3de0",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/rust/rust-redaction.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "a7100f053fd672329b81222f4357eeba4f26ccbb",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "search.md": {
       "status": "skip",
