@@ -5,19 +5,18 @@
   "last_synced_at": "2026-11-18",
   "files": {
     "_index.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "983478d150e5ec4a3e46edc0c1c57fd0ac1ca278",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
-      "notes": "站点首页，正文页全量翻译"
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "best-practices/1-1-1.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "6b357fe2fb062edb58ba31e44b97634ec62bce1a",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "best-practices/_index.md": {
       "status": "skip-partial",
@@ -28,18 +27,18 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "best-practices/dos-donts.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "064c159822f0fdf93dde1dfcfdf45ff3a83ebc0b",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "best-practices/no-cargo-cults.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "8f63daf4ee39afcd5e15d677217147f5ad4cf204",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "design-decisions/_index.md": {
       "status": "skip-partial",
@@ -100,25 +99,25 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "editions/features.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "23d50fa6ba452c3a9406add76003265a18838563",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "editions/implementation.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "478f2d9cf8751ac5b0c1397368017735326e33df",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "editions/overview.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "144d38c29af798dc80ed72432ea33ef1e1cd5283",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "forum-link.md": {
       "status": "skip",
@@ -137,25 +136,25 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "getting-started/cpptutorial.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "60d1475e84d71a087fd060d7cee96a3fede4ba57",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "getting-started/csharptutorial.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "2c2330adef2e0cb814e5e05198ae69952c4b6d1e",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "getting-started/darttutorial.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "21bea9ce34194b050376c5d06e4a357139248735",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-18",
+      "translator": "agent"
     },
     "getting-started/gotutorial.md": {
       "status": "pending",

@@ -122,6 +122,26 @@ def _paren_wrapped(line: str, start: int, end: int) -> bool:
     return bool(before) and before[-1] in "（(" and bool(after) and after[0] in "）)"
 
 
+def _paren_spans(line: str) -> list[tuple[int, int]]:
+    """收集行内全部配对括号 (start, end) span（中英文括号均支持）。"""
+    pairs = {"（": "）", "(": ")"}
+    spans: list[tuple[int, int]] = []
+    stack: list[tuple[str, int]] = []
+    for i, ch in enumerate(line):
+        if ch in pairs:
+            stack.append((ch, i))
+        elif ch in (")", "）") and stack:
+            open_ch, start = stack.pop()
+            if pairs.get(open_ch) == ch:
+                spans.append((start, i))
+    return spans
+
+
+def _inside_parens(line: str, start: int, end: int) -> bool:
+    """判断 match 是否整体落在某个括号 span 内（如「默认值（default value）」中的 value）。"""
+    return any(s <= start and end <= e for s, e in _paren_spans(line))
+
+
 def check_terms(rel: str, text: str, glossary: list[dict], allowlist: list[str]) -> list[str]:
     """术语一致性检查：英文术语裸露出现（未括注）即告警。"""
     findings: list[str] = []
@@ -160,7 +180,7 @@ def check_terms(rel: str, text: str, glossary: list[dict], allowlist: list[str])
         line = strip_line(raw)
         for pattern, variant, zh in compiled:
             for m in pattern.finditer(line):
-                if _paren_wrapped(line, m.start(), m.end()):
+                if _paren_wrapped(line, m.start(), m.end()) or _inside_parens(line, m.start(), m.end()):
                     continue
                 snippet = line[max(0, m.start() - 24):m.end() + 24].strip()
                 findings.append(
