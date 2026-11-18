@@ -1136,53 +1136,53 @@
       "notes": "API 文档跳转占位页（manualLink 跳转，无正文）；title 为语言名+API 组合，无需翻译——与 forum-link.md 同性质，Phase 0 遗漏项补确认"
     },
     "reference/go/faq.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "43f2ef9f045f643047ab420386944ca730ff7206",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/go/go-generated-opaque.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "ec79955e417b999fc8be890b8b28a51bb45c816a",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/go/go-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "0ecceab130984b3f539cecc9e88d26ceae6faf18",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/go/opaque-faq.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "1cc3877910f2193967bf77c12f47a80462b030e2",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/go/opaque-migration-manual.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "b26a9e8bc4ef21f847ed8aa4bae891f7fd40cf8c",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/go/opaque-migration.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "33601171b75922dd35accfe3397aec08260f766f",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/go/size.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "3841d98eabe70109020d5125bd84378909c224fb",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/java/_index.md": {
       "status": "skip-partial",
@@ -1201,18 +1201,18 @@
       "notes": "API 文档跳转占位页（manualLink 跳转，无正文）；title 为语言名+API 组合，无需翻译——与 forum-link.md 同性质，Phase 0 遗漏项补确认"
     },
     "reference/java/java-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "09932c594d55efe22496e660554ef47cbc458bea",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/java/java-proto-names.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "938cd95245e3e26fd0b5c34ea6c0e609b60cc21e",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/java/java-utf8-validation.md": {
       "status": "pending",
