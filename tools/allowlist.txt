@@ -1,0 +1,27 @@
+# tools/allowlist.txt — check_terms.py 白名单
+# 格式：含 / * ? 的条目按 fnmatch 通配匹配仓库相对路径（整文件豁免）；
+#       其余条目按字面子串匹配（豁免所在行）。以 # 开头为注释。
+#
+# skip-partial 列表页：仅译标题/描述与导语，正文英文链接列表为合法保留内容。
+zh/best-practices/_index.md
+zh/design-decisions/_index.md
+zh/editions/_index.md
+zh/getting-started/_index.md
+zh/news/_index.md
+zh/programming-guides/_index.md
+zh/reference/_index.md
+zh/reference/cpp/_index.md
+zh/reference/cpp/api-docs/_index.md
+zh/reference/csharp/_index.md
+zh/reference/dart/_index.md
+zh/reference/go/_index.md
+zh/reference/java/_index.md
+zh/reference/kotlin/_index.md
+zh/reference/kotlin/api-docs/_index.md
+zh/reference/objective-c/_index.md
+zh/reference/php/_index.md
+zh/reference/protobuf/_index.md
+zh/reference/python/_index.md
+zh/reference/ruby/_index.md
+zh/reference/rust/_index.md
+zh/support/_index.md
