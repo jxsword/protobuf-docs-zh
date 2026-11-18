@@ -629,81 +629,81 @@
       "translator": "agent"
     },
     "programming-guides/enum.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "0ea887f1174a70aebae2fdeabcd536550fd9c30f",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/extension_declarations.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "a90e09aceb4217ab8f0d9d2f021e5e6413bfe0a1",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/field_presence.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "d9a4b5405a01ce5390602d485d1c617a4a0419f6",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/json.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f24ca699df0162b472be55cdcfae0426b66e8644",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/proto-limits.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "e312aa89626e63cb7ee759eb16c9777bb9b49875",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/proto2.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "fab2920399eefc02c8b16bf6a223b09f5eaf1062",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/proto3.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "113eb1b3935580e815f57137085f62a8df554524",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/serialization-not-canonical.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "34a14dd690d3cf6fa86c4956594fcc4d96a6972c",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/style.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "dd082ba7daf70908a2f409b02cc8fb59dd4f83e7",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/symbol_visibility.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "21d0944f0273fbcf759bc5db5b47b3970a71ccc2",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/techniques.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f91ff659de0e596976e22c1882cc486173266714",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/_index.md": {
       "status": "skip-partial",
