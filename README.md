@@ -64,8 +64,8 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 | 状态 | 数量 | 说明 |
 | --- | --- | --- |
-| pending | 207 | 待翻译 |
-| translated | 10 | 已完成并通过质检（P0 批次 1） |
+| pending | 197 | 待翻译 |
+| translated | 20 | 已完成并通过质检（P0 批次 1–2） |
 | update-needed | 0 | 上游变更，需按 diff 更新 |
 | skip-partial | 22 | 列表页，仅译标题/描述与导语 |
 | skip | 3 | 站点功能页，不翻译 |
@@ -75,7 +75,7 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 | 优先级 | 范围 | 文件数 | 待办 |
 | --- | --- | --- | --- |
-| P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | 21 |
+| P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | 11 |
 | P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | 41 |
 | P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | 81 |
 | P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | 64 |
@@ -138,7 +138,12 @@ includes 联动机制（更新时标记引用页 update-needed(review)）已实�
   （cpp / csharp / dart）。译者/审校 agent 分离流水线 + 双脚本质检门禁
   10/10 通过；审校发现的注释口径问题已固化为 style-guide 规则 1 修订
   （代码注释可译，全仓统一）。
-- 下一批：P0 批次 2（getting-started 其余教程 + overview / installation），
+- **P0 批次 2（10 文件，2026-11-19 合入 main）**：getting-started 其余
+  4 教程（go / java / kotlin / python）、installation、overview、
+  programming-guides 前 5 篇（addons / deserialize-debug / editions /
+  encoding）。质检 20/20 通过（含批次 1 回归）；审校修复 31 处；
+  check_terms 升级支持「首现括注、后文径用」语义。
+- 下一批：P0 批次 3（programming-guides 其余 11 篇），
   见 `tasks/pending-2026-11-19.md`。
 
 ## 持续更新
