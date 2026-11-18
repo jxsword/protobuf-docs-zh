@@ -157,32 +157,32 @@
       "translator": "agent"
     },
     "getting-started/gotutorial.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "ff1823744ea52f3aa4185786945ebcfa16bdb3b5",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "getting-started/javatutorial.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "83daea2e35b61722066bb848ad696e03fbc77853",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "getting-started/kotlintutorial.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "07a0c250f5d04413b306071349620e566c0a2970",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "getting-started/pythontutorial.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "aea078d5b57bc529b1e63aef84ecea183de6bead",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "history.md": {
       "status": "pending",
@@ -192,11 +192,11 @@
       "translator": null
     },
     "installation.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "6ded35bc28a1c340dc590f5a82c6e9ee06431796",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "navbar.md": {
       "status": "skip",
@@ -586,11 +586,11 @@
       "translator": null
     },
     "overview.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "6af975630a4b8860dabbf0c8cfe9f08691b0c722",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/_index.md": {
       "status": "skip-partial",
@@ -601,32 +601,32 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "programming-guides/addons.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "555ef70a4d6176cc52299ef44cf5c9beedc9de89",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/deserialize-debug.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "9f157efae1fe516427ba70e2eca1a1d919cd4ce7",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/editions.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "be8eeb85eebd8ff92ab86a7bedc379963abdb369",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/encoding.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "24276729328e6049b67b078159f4c86608e1e5e7",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "programming-guides/enum.md": {
       "status": "pending",
