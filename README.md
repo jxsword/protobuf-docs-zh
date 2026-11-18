@@ -57,14 +57,15 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 ## 进度看板
 
-数据来源 `manifest.json`（2026-11-18 初始化，上游 `f72a6a648b`）。
+数据来源 `manifest.json`（2026-11-18 初始化，上游 `f72a6a648b`；P0 批次 1
+已于 2026-11-19 合入，见「进度说明」）。
 
 **按状态**（总计 242 个上游 md 文件）：
 
 | 状态 | 数量 | 说明 |
 | --- | --- | --- |
-| pending | 217 | 待翻译 |
-| translated | 0 | 已完成并通过质检 |
+| pending | 207 | 待翻译 |
+| translated | 10 | 已完成并通过质检（P0 批次 1） |
 | update-needed | 0 | 上游变更，需按 diff 更新 |
 | skip-partial | 22 | 列表页，仅译标题/描述与导语 |
 | skip | 3 | 站点功能页，不翻译 |
@@ -74,7 +75,7 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 | 优先级 | 范围 | 文件数 | 待办 |
 | --- | --- | --- | --- |
-| P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | 31 |
+| P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | 21 |
 | P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | 41 |
 | P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | 81 |
 | P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | 64 |
@@ -129,6 +130,16 @@ includes 联动机制（更新时标记引用页 update-needed(review)）已实�
    机制照常实现但当前无触发对象。
 3. 根 `_index.md` 为首页正文页、kotlin api-docs 页为 API 文档页，
    均不适用「列表页 skip-partial」规则，逐个确认后按上述例外处理。
+
+## 进度说明
+
+- **P0 批次 1（10 文件，2026-11-19 合入 main）**：首页 `_index.md`、
+  best-practices 3 篇、editions 3 篇、getting-started 教程 3 篇
+  （cpp / csharp / dart）。译者/审校 agent 分离流水线 + 双脚本质检门禁
+  10/10 通过；审校发现的注释口径问题已固化为 style-guide 规则 1 修订
+  （代码注释可译，全仓统一）。
+- 下一批：P0 批次 2（getting-started 其余教程 + overview / installation），
+  见 `tasks/pending-2026-11-19.md`。
 
 ## 持续更新
 
