@@ -126,4 +126,7 @@
 | add-on | 附加组件 | 区别于 plugin=插件（编译器插件） |
 | redact; redaction | 脱敏 | |
 | retention | 保留性 | 指选项的 RETENTION 属性 |
-| asset | 发布产物 | GitHub release 资产语境 | |
+| asset | 发布产物 | GitHub release 资产语境 |
+| extension range | 扩展区间 | |
+| deep clone | 深拷贝 | |
+| map entry | 映射条目 | map 的线路格式承载消息 | |

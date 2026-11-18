@@ -381,7 +381,7 @@ local message AnotherMessage {
 
 从版次 2024 开始，不再允许弱导入（weak import）。
 
-如果你此前依赖 `import weak` 来声明"弱依赖"（weak dependency）&mdash;即在没有生成代码的情况下为 C++ 和 Go 导入自定义选项&mdash;那么你应改为迁移到 `import option`。
+如果你此前依赖 `import weak` 来声明"弱依赖"（weak dependency）——即在没有生成代码的情况下为 C++ 和 Go 导入自定义选项——那么你应改为迁移到 `import option`。
 
 更多详情请参阅 [`import option`](/editions/overview#import-option)。
 
