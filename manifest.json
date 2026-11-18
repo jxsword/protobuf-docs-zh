@@ -1,0 +1,1735 @@
+{
+  "schema_version": 1,
+  "upstream_url": "https://github.com/protocolbuffers/protocolbuffers.github.io",
+  "last_synced_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+  "last_synced_at": "2026-11-18",
+  "files": {
+    "_index.md": {
+      "status": "pending",
+      "upstream_sha": "983478d150e5ec4a3e46edc0c1c57fd0ac1ca278",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "站点首页，正文页全量翻译"
+    },
+    "best-practices/1-1-1.md": {
+      "status": "pending",
+      "upstream_sha": "6b357fe2fb062edb58ba31e44b97634ec62bce1a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "best-practices/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "caf73bea8458e96601d60f67e051fb455e3a94b6",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "best-practices/dos-donts.md": {
+      "status": "pending",
+      "upstream_sha": "064c159822f0fdf93dde1dfcfdf45ff3a83ebc0b",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "best-practices/no-cargo-cults.md": {
+      "status": "pending",
+      "upstream_sha": "8f63daf4ee39afcd5e15d677217147f5ad4cf204",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "design-decisions/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "1d953c3357b3a2b1000b75d430056b657dd661dd",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "design-decisions/extensions-over-any.md": {
+      "status": "pending",
+      "upstream_sha": "f94ed7f7edcd3c257d646e022f7ad156853023d0",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "design-decisions/implicit-presence.md": {
+      "status": "pending",
+      "upstream_sha": "2dad6dcf9d297f78e3da86abaf00f8a9c7a9b2a2",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "design-decisions/insertion-points-and-generic-services.md": {
+      "status": "pending",
+      "upstream_sha": "da6cf7b1a9037d83571f65ea896ab5af26da3902",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "design-decisions/nullable-getters-setters.md": {
+      "status": "pending",
+      "upstream_sha": "ec22b6f329ee7ce21111da94366a58c945b28d7a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "design-decisions/opaque-apis.md": {
+      "status": "pending",
+      "upstream_sha": "0de8f5211305874caa05f163797754c248f5f46e",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "downloads.md": {
+      "status": "pending",
+      "upstream_sha": "699781baf674bd40b1004f63350df18f9f8ce5a2",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "editions/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "6819f57dac54ecef92b5091a10461cc6387c8d9d",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "editions/features.md": {
+      "status": "pending",
+      "upstream_sha": "23d50fa6ba452c3a9406add76003265a18838563",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "editions/implementation.md": {
+      "status": "pending",
+      "upstream_sha": "478f2d9cf8751ac5b0c1397368017735326e33df",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "editions/overview.md": {
+      "status": "pending",
+      "upstream_sha": "144d38c29af798dc80ed72432ea33ef1e1cd5283",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "forum-link.md": {
+      "status": "skip",
+      "upstream_sha": "1d743b80f7363fbf9fe21bf886273069891bf352",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "站点功能页：导航/论坛链接/搜索占位页，无正文"
+    },
+    "getting-started/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "dc5b64865b05be1a352d70c5b6a1cc36582f8369",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "getting-started/cpptutorial.md": {
+      "status": "pending",
+      "upstream_sha": "60d1475e84d71a087fd060d7cee96a3fede4ba57",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "getting-started/csharptutorial.md": {
+      "status": "pending",
+      "upstream_sha": "2c2330adef2e0cb814e5e05198ae69952c4b6d1e",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "getting-started/darttutorial.md": {
+      "status": "pending",
+      "upstream_sha": "21bea9ce34194b050376c5d06e4a357139248735",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "getting-started/gotutorial.md": {
+      "status": "pending",
+      "upstream_sha": "ff1823744ea52f3aa4185786945ebcfa16bdb3b5",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "getting-started/javatutorial.md": {
+      "status": "pending",
+      "upstream_sha": "83daea2e35b61722066bb848ad696e03fbc77853",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "getting-started/kotlintutorial.md": {
+      "status": "pending",
+      "upstream_sha": "07a0c250f5d04413b306071349620e566c0a2970",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "getting-started/pythontutorial.md": {
+      "status": "pending",
+      "upstream_sha": "aea078d5b57bc529b1e63aef84ecea183de6bead",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "history.md": {
+      "status": "pending",
+      "upstream_sha": "16eb9044f9534626ce0baf8c42e280cbd5d7ac5a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "installation.md": {
+      "status": "pending",
+      "upstream_sha": "6ded35bc28a1c340dc590f5a82c6e9ee06431796",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "navbar.md": {
+      "status": "skip",
+      "upstream_sha": "165d8ce6baab6d4e19b426cbd56cede9f8416045",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "站点功能页：导航/论坛链接/搜索占位页，无正文"
+    },
+    "news/2022-05-06.md": {
+      "status": "pending",
+      "upstream_sha": "d15b44d2b5e977a08c446ae39ee474ed4a7b295d",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2022-07-06.md": {
+      "status": "pending",
+      "upstream_sha": "83709be85212a379a57a5f66f537946cd28916d0",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2022-08-03.md": {
+      "status": "pending",
+      "upstream_sha": "0a6bb06b7ba10210e7d501e264e4e023ea29fcbe",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-04-11.md": {
+      "status": "pending",
+      "upstream_sha": "af4d249f9c263805db09c86954da0dee47859ad7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-04-20.md": {
+      "status": "pending",
+      "upstream_sha": "12096d2eabe2df514b9a7508a49f481cc0c0441f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-04-28.md": {
+      "status": "pending",
+      "upstream_sha": "30151dfcfe61ad137896c033313df2566ea8f02d",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-06-29.md": {
+      "status": "pending",
+      "upstream_sha": "65365e1864a3684f0759aa3c2be25e625e72a5fa",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-07-06.md": {
+      "status": "pending",
+      "upstream_sha": "40633ba83476bc6782f1fe8de9a7ee197edbf363",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-07-17.md": {
+      "status": "pending",
+      "upstream_sha": "85915aada384cf8fd9ef108a992b4d33ecbc6d5f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-08-09.md": {
+      "status": "pending",
+      "upstream_sha": "cf4c812baf0453604416b3392a679c1036890e1b",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-08-15.md": {
+      "status": "pending",
+      "upstream_sha": "803a548bbdff4c4d699b1b7da0f273eb56453674",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-09-15.md": {
+      "status": "pending",
+      "upstream_sha": "63c1d4ceb71051504aadd464daebf3b679b8d973",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-10-10.md": {
+      "status": "pending",
+      "upstream_sha": "c32957b824a0d087215acda224fab81f0d037ed1",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-12-05.md": {
+      "status": "pending",
+      "upstream_sha": "4c68047eefeccb7822458b57f5b322aa3e3dce62",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-12-13.md": {
+      "status": "pending",
+      "upstream_sha": "1dd246d993ec885283326a2753d9181d1d44a31f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2023-12-27.md": {
+      "status": "pending",
+      "upstream_sha": "c5fdb150c9cdb1279a690bc0388f449abe00d8c1",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-01-05.md": {
+      "status": "pending",
+      "upstream_sha": "07d7d84ac9eb75786f492b4fe9305ead796a6762",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-01-31.md": {
+      "status": "pending",
+      "upstream_sha": "e03507162a8b8dcf4c8e14c591a6dd61af08b065",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-02-05.md": {
+      "status": "pending",
+      "upstream_sha": "7dbcbc7bbfaa228f83fa969f39c0882344d52471",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-02-27.md": {
+      "status": "pending",
+      "upstream_sha": "51d45ba8d61089c74dfcf119a30effd154a43b70",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-06-26.md": {
+      "status": "pending",
+      "upstream_sha": "59300675d40774d1621e10484d70e9e36a974f8b",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-10-01.md": {
+      "status": "pending",
+      "upstream_sha": "d56ddfcd7a3296c63072409cb15cae10cc98fff5",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-10-02.md": {
+      "status": "pending",
+      "upstream_sha": "4c62bbe335cd57c619ef470feb4025881b166d97",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-11-07.md": {
+      "status": "pending",
+      "upstream_sha": "008b57479a389b1bca2899fe659f6f17fa812e46",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-12-04.md": {
+      "status": "pending",
+      "upstream_sha": "6ce0f63b4f29a938825b11a88fb2849e4fe181ff",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-12-13.md": {
+      "status": "pending",
+      "upstream_sha": "f91f60deea7ed631310fba574b5b9b085ffc6830",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2024-12-18.md": {
+      "status": "pending",
+      "upstream_sha": "cd8821b5d97cd14f239023de59ab5de6234837c4",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2025-01-23.md": {
+      "status": "pending",
+      "upstream_sha": "a564f03eb142cca550c99fbbbe43538d532717d2",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2025-03-18.md": {
+      "status": "pending",
+      "upstream_sha": "a64c5319d23241719459797a876fa8cb04ceae7a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2025-06-27.md": {
+      "status": "pending",
+      "upstream_sha": "9503aa7b58e322094b611600497c8d58c5f74486",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2025-07-14.md": {
+      "status": "pending",
+      "upstream_sha": "af84223da2f422db1f6928650469168b0b174a82",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2025-07-16.md": {
+      "status": "pending",
+      "upstream_sha": "4edfda570900366bf89eb6bb588b1bc4ed14afa1",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2025-09-19.md": {
+      "status": "pending",
+      "upstream_sha": "b3fe33c4da5d391673dbb5b6b51e0af09f7ab99e",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2026-01-16.md": {
+      "status": "pending",
+      "upstream_sha": "ac74397be9ea792271ab461cdf8275f9cc8cc1b0",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2026-03-13.md": {
+      "status": "pending",
+      "upstream_sha": "51b226677809f9a6cc246378c44f9aa126858d40",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2026-05-18.md": {
+      "status": "pending",
+      "upstream_sha": "b3017c778fedd9388bd8df281fb746250dc95ceb",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2026-06-16.md": {
+      "status": "pending",
+      "upstream_sha": "02f44317ad6d9a4c8df57b773b8684c68d03f627",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2026-07-13.md": {
+      "status": "pending",
+      "upstream_sha": "4506102f8ece5a1e9e03a9b0ad115af9ae71ed73",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2026-09-22.md": {
+      "status": "pending",
+      "upstream_sha": "6dfe50d930e9d22404e02102d92f8f26ea88d6cf",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2026-10-15.md": {
+      "status": "pending",
+      "upstream_sha": "719da7ce4f1f7780d2ff7c150905e8b7ce9ecfb5",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2026-10-16.md": {
+      "status": "pending",
+      "upstream_sha": "57f228ed88d9ecf0be29e6384e7e1ddec58ef26c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/2026-10-21.md": {
+      "status": "pending",
+      "upstream_sha": "c6593c607656ba80e8ddf2a019eef0976b1406d8",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "6d28fd907a0341f8930737585bf1b77cbf120d48",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "news/v21.md": {
+      "status": "pending",
+      "upstream_sha": "8fc2aa4ff1059f69fc3757cc3bdca9e8fdca88f9",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v22.md": {
+      "status": "pending",
+      "upstream_sha": "16d778ad325b57d4a972bfb8ea2d95736e8a8d7d",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v23.md": {
+      "status": "pending",
+      "upstream_sha": "3e9cef39fdc39ce857a621937ac685261ed32a5c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v24.md": {
+      "status": "pending",
+      "upstream_sha": "6fee7805a40c93a02d45e36a4c49c5c050f96438",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v25.md": {
+      "status": "pending",
+      "upstream_sha": "cf5f21babb452894a5f4a5dffb9d2a8f5341acb9",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v26.md": {
+      "status": "pending",
+      "upstream_sha": "ce67fc6738ee3541a317b355d165dfae1480eb9d",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v29.md": {
+      "status": "pending",
+      "upstream_sha": "5107b7721c6bc58d9742e117cb10099432f7784c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v30.md": {
+      "status": "pending",
+      "upstream_sha": "8c764d6af609378ea634b55b88c96bb8ccf6ff52",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v31.md": {
+      "status": "pending",
+      "upstream_sha": "1555c3f05c7b111238f19d423f378428c18659bf",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v32.md": {
+      "status": "pending",
+      "upstream_sha": "f7a355af6a92b9bf566bc97c716320bcdf61951f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "news/v34.md": {
+      "status": "pending",
+      "upstream_sha": "9b0d8fd61dbb194acbb26ae1039347c38a860687",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "overview.md": {
+      "status": "pending",
+      "upstream_sha": "6af975630a4b8860dabbf0c8cfe9f08691b0c722",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "7cb7e83fb1df1f126439dee9f08fe900620a1ddd",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "programming-guides/addons.md": {
+      "status": "pending",
+      "upstream_sha": "555ef70a4d6176cc52299ef44cf5c9beedc9de89",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/deserialize-debug.md": {
+      "status": "pending",
+      "upstream_sha": "9f157efae1fe516427ba70e2eca1a1d919cd4ce7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/editions.md": {
+      "status": "pending",
+      "upstream_sha": "be8eeb85eebd8ff92ab86a7bedc379963abdb369",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/encoding.md": {
+      "status": "pending",
+      "upstream_sha": "24276729328e6049b67b078159f4c86608e1e5e7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/enum.md": {
+      "status": "pending",
+      "upstream_sha": "0ea887f1174a70aebae2fdeabcd536550fd9c30f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/extension_declarations.md": {
+      "status": "pending",
+      "upstream_sha": "a90e09aceb4217ab8f0d9d2f021e5e6413bfe0a1",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/field_presence.md": {
+      "status": "pending",
+      "upstream_sha": "d9a4b5405a01ce5390602d485d1c617a4a0419f6",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/json.md": {
+      "status": "pending",
+      "upstream_sha": "f24ca699df0162b472be55cdcfae0426b66e8644",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/proto-limits.md": {
+      "status": "pending",
+      "upstream_sha": "e312aa89626e63cb7ee759eb16c9777bb9b49875",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/proto2.md": {
+      "status": "pending",
+      "upstream_sha": "fab2920399eefc02c8b16bf6a223b09f5eaf1062",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/proto3.md": {
+      "status": "pending",
+      "upstream_sha": "113eb1b3935580e815f57137085f62a8df554524",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/serialization-not-canonical.md": {
+      "status": "pending",
+      "upstream_sha": "34a14dd690d3cf6fa86c4956594fcc4d96a6972c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/style.md": {
+      "status": "pending",
+      "upstream_sha": "dd082ba7daf70908a2f409b02cc8fb59dd4f83e7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/symbol_visibility.md": {
+      "status": "pending",
+      "upstream_sha": "21d0944f0273fbcf759bc5db5b47b3970a71ccc2",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "programming-guides/techniques.md": {
+      "status": "pending",
+      "upstream_sha": "f91ff659de0e596976e22c1882cc486173266714",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "196b4d8362961692981d01f65c08cf2ab3e86e5c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/cpp/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "6f2d2689028d4cf05728318bc8110cd1bb3cc06a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/cpp/abseil.md": {
+      "status": "pending",
+      "upstream_sha": "d75764c092dcd4c514c33e695ab304f06d8d869a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs-link.md": {
+      "status": "pending",
+      "upstream_sha": "d02a4af723f4f5bb464e311ab195b35d4e82172a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "4fa254611a6ac2fbac1170e7c800e61e6c511a65",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/cpp/api-docs/google.protobuf.arena.md": {
+      "status": "pending",
+      "upstream_sha": "bd09ff282a1c2c0231c80f02f6a81839cf6e48d6",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.common.md": {
+      "status": "pending",
+      "upstream_sha": "767097fe79fb9658b3a1cfbe86fe493191e64c8f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.code_generator.md": {
+      "status": "pending",
+      "upstream_sha": "7ba7e5509d01b6f008aff3d375585acd9e6d4d52",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.command_line_interface.md": {
+      "status": "pending",
+      "upstream_sha": "185026ecd19ce81d94682c7c973068683f761c67",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.cpp_generator.md": {
+      "status": "pending",
+      "upstream_sha": "48672e93b570ec7f3372a868b1e73e0bf440f3fa",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.csharp_generator.md": {
+      "status": "pending",
+      "upstream_sha": "bfe0bb7d0adf68315051b66d92a9af39e7f268ac",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.csharp_names.md": {
+      "status": "pending",
+      "upstream_sha": "08155068504a6758d6ef6873ba61b3717a0eaa2f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.importer.md": {
+      "status": "pending",
+      "upstream_sha": "1804ffea037f6922fcffef3c2ad1e4d15a5c1713",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.java_generator.md": {
+      "status": "pending",
+      "upstream_sha": "9ca74e12df05d76f94366b1d0faa06011ece7e51",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.java_names.md": {
+      "status": "pending",
+      "upstream_sha": "f8b33d871fccd02af388f2be7e5bead7d53ba71d",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.javanano_generator.md": {
+      "status": "pending",
+      "upstream_sha": "a293ed869b8191d2f5f3a8f0891bf024f9ffea9b",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.js_generator.md": {
+      "status": "pending",
+      "upstream_sha": "6ab34ccb56278de49bc07487038e97977aa2787c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.objectivec_generator.md": {
+      "status": "pending",
+      "upstream_sha": "e994ce5b6985c7e343411535b56d8f7655a00a34",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.objectivec_helpers.md": {
+      "status": "pending",
+      "upstream_sha": "07557d4f4e42cd3742efff1928ae12b46ca8886d",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.parser.md": {
+      "status": "pending",
+      "upstream_sha": "17de7af27ac4233847b8bcfbefe35685c9cfc4cd",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.plugin.md": {
+      "status": "pending",
+      "upstream_sha": "61bc007fc664c53b27483e4792dc1dc0b1793d89",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.plugin.pb.md": {
+      "status": "pending",
+      "upstream_sha": "37ce5409354e07ae4bd38013537f5bdffe5149c7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.python_generator.md": {
+      "status": "pending",
+      "upstream_sha": "d8cad39d26f395fd482ee8d0c0b3546dbc1e0e10",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.compiler.ruby_generator.md": {
+      "status": "pending",
+      "upstream_sha": "29e9501741b6131254fdf0410bf0bb85912334e0",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.descriptor.md": {
+      "status": "pending",
+      "upstream_sha": "3680f7cfbf131531c11a5cfdf383de5a42979a51",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.descriptor.pb.md": {
+      "status": "pending",
+      "upstream_sha": "3e966f8a3f18b79293ae7ba6346a160689b0bbc3",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.descriptor_database.md": {
+      "status": "pending",
+      "upstream_sha": "c787ecac91406ce908afbb672e1693b1a1923229",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.dynamic_message.md": {
+      "status": "pending",
+      "upstream_sha": "be22de338d45dc34a3fa35625219faf50751a36c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.io.coded_stream.md": {
+      "status": "pending",
+      "upstream_sha": "c1bfca934f8dba6b3e49e96df4bdc837b82d4846",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.io.gzip_stream.md": {
+      "status": "pending",
+      "upstream_sha": "1c87a23c00d2223572919433b5aa1d5c83f82939",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.io.printer.md": {
+      "status": "pending",
+      "upstream_sha": "1623248a2230b13d59216f5d77bf55cdcc93e443",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.io.tokenizer.md": {
+      "status": "pending",
+      "upstream_sha": "3845f9d76e4a6d1a1ae2a5eaba5149eda7ceb7f6",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.io.zero_copy_stream.md": {
+      "status": "pending",
+      "upstream_sha": "0151e5ab3d587159da7dee3cad07c2467b9661d0",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.io.zero_copy_stream_impl.md": {
+      "status": "pending",
+      "upstream_sha": "f14a8f57922866dd128a8d1e30646fdbc1302cba",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.io.zero_copy_stream_impl_lite.md": {
+      "status": "pending",
+      "upstream_sha": "9a773842e1da245b79be42f6fd132b4a4c87a0fc",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.map.md": {
+      "status": "pending",
+      "upstream_sha": "bc0dc12d89b3ca3f5cd4977a25c7511470f433ba",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.message.md": {
+      "status": "pending",
+      "upstream_sha": "d6b930db9c7aae43e142c5741a3064c7f8798ebf",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.message_lite.md": {
+      "status": "pending",
+      "upstream_sha": "ee01ba1f866fb9b5197aa45087e3c479f69c34eb",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.repeated_field.md": {
+      "status": "pending",
+      "upstream_sha": "62824ecd291d4ca953085b0539e2820afe6a2e94",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.service.md": {
+      "status": "pending",
+      "upstream_sha": "e4d9b0070cecb119372ffba0a574b65a4c380815",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.text_format.md": {
+      "status": "pending",
+      "upstream_sha": "f02945f3438ad5548133a689d3c3c2970b9effd2",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.unknown_field_set.md": {
+      "status": "pending",
+      "upstream_sha": "7ebb4623be83fa00e8c249b8f74d467c04df2bfe",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.util.field_comparator.md": {
+      "status": "pending",
+      "upstream_sha": "2e031bbe1489129bd80a4f24e0dc6f9492af1702",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.util.field_mask_util.md": {
+      "status": "pending",
+      "upstream_sha": "864385650b5d7acc011821ecdac7051539c0eb70",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.util.json_util.md": {
+      "status": "pending",
+      "upstream_sha": "6e263658f16d028d367a2043bcfa3581312af36c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.util.message_differencer.md": {
+      "status": "pending",
+      "upstream_sha": "37a80619f7f9d4e62a81fa6aa4c57733667b4c86",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.util.time_util.md": {
+      "status": "pending",
+      "upstream_sha": "e011d8788df66596721ccf5c7a70f6212b7520e7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.util.type_resolver.md": {
+      "status": "pending",
+      "upstream_sha": "4866f95f17fd6e6fa801b35c4b3b52105f6d8b8d",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/api-docs/google.protobuf.util.type_resolver_util.md": {
+      "status": "pending",
+      "upstream_sha": "aea64a3d8ae00200ce57df731f8531a374532c8e",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/arenas.md": {
+      "status": "pending",
+      "upstream_sha": "31f5afaaa2bc6ee9318d86a77434ffa3b3839720",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/cpp-generated.md": {
+      "status": "pending",
+      "upstream_sha": "f59ce21d1c32ee3b24ec07c7c2b3e415f509ca46",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/cpp/string-view.md": {
+      "status": "pending",
+      "upstream_sha": "59de82bae0e1a1a6f64f0c98d9e4712170217492",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/csharp/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "ca4234f8cfc84e241f57022a1f7f8911c110533e",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/csharp/api-docs-link.md": {
+      "status": "pending",
+      "upstream_sha": "d16add2c06f93f01dd21dee378f3625275eaf7f7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/csharp/csharp-generated.md": {
+      "status": "pending",
+      "upstream_sha": "8d2c8ca518d6786df10c3fcf95bc3d719084a679",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/dart/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "72ae1070e335cbb176e68bf091e818bb34abedf5",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/dart/api-docs-link.md": {
+      "status": "pending",
+      "upstream_sha": "eddcc74142af2278e250c22b61bbf46077f8afcd",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/dart/dart-generated.md": {
+      "status": "pending",
+      "upstream_sha": "52e1e16da51889d6e4227070f7f66aa868afe3da",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/go/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "3fce04156a8596bfdd96554f55a874119ebc91da",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/go/api-docs-link.md": {
+      "status": "pending",
+      "upstream_sha": "04cb9a53d0ac837c0019e1981e50b30bfc55de55",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/go/faq.md": {
+      "status": "pending",
+      "upstream_sha": "43f2ef9f045f643047ab420386944ca730ff7206",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/go/go-generated-opaque.md": {
+      "status": "pending",
+      "upstream_sha": "ec79955e417b999fc8be890b8b28a51bb45c816a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/go/go-generated.md": {
+      "status": "pending",
+      "upstream_sha": "0ecceab130984b3f539cecc9e88d26ceae6faf18",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/go/opaque-faq.md": {
+      "status": "pending",
+      "upstream_sha": "1cc3877910f2193967bf77c12f47a80462b030e2",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/go/opaque-migration-manual.md": {
+      "status": "pending",
+      "upstream_sha": "b26a9e8bc4ef21f847ed8aa4bae891f7fd40cf8c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/go/opaque-migration.md": {
+      "status": "pending",
+      "upstream_sha": "33601171b75922dd35accfe3397aec08260f766f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/go/size.md": {
+      "status": "pending",
+      "upstream_sha": "3841d98eabe70109020d5125bd84378909c224fb",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/java/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "2e6412a3985165a34e5bdd1eb6abea3c0fdd4711",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/java/api-docs-link.md": {
+      "status": "pending",
+      "upstream_sha": "347a29b898af88e5aeb9bb598e17fba26d0545fa",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/java/java-generated.md": {
+      "status": "pending",
+      "upstream_sha": "09932c594d55efe22496e660554ef47cbc458bea",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/java/java-proto-names.md": {
+      "status": "pending",
+      "upstream_sha": "938cd95245e3e26fd0b5c34ea6c0e609b60cc21e",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/java/java-utf8-validation.md": {
+      "status": "pending",
+      "upstream_sha": "1e065a8056dbad53d95cb676e0d48a175c74547b",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "ddc9959874c5a1b53f6938878b8b5c9068f18f54",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/kotlin/api-docs/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "90bb4c3f44a4ed5b8dab0bfb56ef6234264c57d4",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/-dsl-list.md": {
+      "status": "pending",
+      "upstream_sha": "868d33bab502527523fe7dc146971b3c924e5b8c",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/_index.md": {
+      "status": "pending",
+      "upstream_sha": "307de7c5d7e0f52e66d43ac71415fbacbd1d99b7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/equals.md": {
+      "status": "pending",
+      "upstream_sha": "504c09b0a348d2e3ad016d9fd85438cad7bc374f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/hash-code.md": {
+      "status": "pending",
+      "upstream_sha": "57dccb3966509e474b5031243d6e51f24c053ef7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/iterator.md": {
+      "status": "pending",
+      "upstream_sha": "54ac64f902db65f1da8115458e229f03bd26fb61",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/list-iterator.md": {
+      "status": "pending",
+      "upstream_sha": "f820e366418bc0830a9eabadc3dfc8a83eec4852",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/to-string.md": {
+      "status": "pending",
+      "upstream_sha": "0bd1be208da0b3d34135187cb14c3dcc17d28bc2",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/-dsl-map.md": {
+      "status": "pending",
+      "upstream_sha": "908e39e5b380857b45f885f1912b29244ed26ea0",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/_index.md": {
+      "status": "pending",
+      "upstream_sha": "c1885aa6e7ecfc5b74a2d5dd6c08a4c106b24eed",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/entries.md": {
+      "status": "pending",
+      "upstream_sha": "9555268b05c8157537900ebaf2509bded3ffaf69",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/equals.md": {
+      "status": "pending",
+      "upstream_sha": "8023cb68003a1a3b6310b901935af7903cc91fdd",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/hash-code.md": {
+      "status": "pending",
+      "upstream_sha": "b7dd94084a157bc4cbe33c77d836215650bff8f0",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/keys.md": {
+      "status": "pending",
+      "upstream_sha": "be30a76fce02cfa348e33cc71c6c9190a836efa6",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/to-string.md": {
+      "status": "pending",
+      "upstream_sha": "4be12f8c859b8acd605c4aa5c2d9666ec46433c0",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/values.md": {
+      "status": "pending",
+      "upstream_sha": "3d5a4f842f0a592b70063fed185f62af9986c319",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-proxy/_index.md": {
+      "status": "pending",
+      "upstream_sha": "0ca1b647c5430ac9e0d6ae8d13c2f585f71dcfb7",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/-extension-list.md": {
+      "status": "pending",
+      "upstream_sha": "32bdf08417c148d7f558da3b77e7bec14d8f4b73",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/_index.md": {
+      "status": "pending",
+      "upstream_sha": "46b9e23448f4ac5169f77661505492b4a097a875",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/equals.md": {
+      "status": "pending",
+      "upstream_sha": "ed11b946026e30098867f9b2b18038874616606a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/extension.md": {
+      "status": "pending",
+      "upstream_sha": "40e43e1c723e44f5309400339b9d1549c161f0a4",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/hash-code.md": {
+      "status": "pending",
+      "upstream_sha": "5e5e04189e417c4ac4905207715fb5289e945a74",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/iterator.md": {
+      "status": "pending",
+      "upstream_sha": "1619ef9a5425d12e29e752a4892642c424cd1cd5",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/list-iterator.md": {
+      "status": "pending",
+      "upstream_sha": "2b19a33af7b949a86c5e51d3908ba25cd5174e57",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/to-string.md": {
+      "status": "pending",
+      "upstream_sha": "b85c4e618ebd909b8ef9474299980d1f082f608f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-only-for-use-by-generated-proto-code/-only-for-use-by-generated-proto-code.md": {
+      "status": "pending",
+      "upstream_sha": "297dba22519cdc6fad5abb41f7a23eac42488378",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-only-for-use-by-generated-proto-code/_index.md": {
+      "status": "pending",
+      "upstream_sha": "4ffd55c128713fbc0aef9c2a634316ad7f2aee87",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-proto-dsl-marker/-proto-dsl-marker.md": {
+      "status": "pending",
+      "upstream_sha": "deb76062b35e4477ebeee39ec1f0f2b3d36b755d",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-proto-dsl-marker/_index.md": {
+      "status": "pending",
+      "upstream_sha": "52505497bdfa933a802b47ffc84b34d5980c7e08",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/_index.md": {
+      "status": "pending",
+      "upstream_sha": "cf93d1b6b28b639d942f449147cdf8ce245ad4a1",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/contains.md": {
+      "status": "pending",
+      "upstream_sha": "a51cf5ef94cc8425a8433ec4b2d76b016f73daf9",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/get.md": {
+      "status": "pending",
+      "upstream_sha": "4152d4e8a29db82583e42af1594577cfefa1588a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/is-a.md": {
+      "status": "pending",
+      "upstream_sha": "c9e512cae5c49a8c00ff560389a76a08f87f1363",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/plus.md": {
+      "status": "pending",
+      "upstream_sha": "f9346a40ab9627c6ef3af2d74d1aaa019d8f0ae5",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/set.md": {
+      "status": "pending",
+      "upstream_sha": "7d702fe7dabe7b7dc06b6bc0d4515f1b6be6b0c1",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/to-byte-string-utf8.md": {
+      "status": "pending",
+      "upstream_sha": "e3a379fdd5625e9fd9e3d06fe8f8c58e19cd8c69",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/to-byte-string.md": {
+      "status": "pending",
+      "upstream_sha": "6b46a7c2d8acdd077e374270f1d725a5399a3ead",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/unpack.md": {
+      "status": "pending",
+      "upstream_sha": "c4f8a039644bd468c075f84bc06753845ad5df84",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/kotlin/kotlin-generated.md": {
+      "status": "pending",
+      "upstream_sha": "43dc541575e958ea7466d7feaace8021bfebdce1",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/objective-c/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "88ece7858dcd3fc8422fa46277180fb4ea9bf39f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/objective-c/objective-c-generated.md": {
+      "status": "pending",
+      "upstream_sha": "1609f50f22da5e28a9a7638981dbad46a0838f0b",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/other.md": {
+      "status": "pending",
+      "upstream_sha": "ad0f2034ef00f690b52df78c65cd34d92db67037",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/php/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "3c55b5b154f1c59be81c7596f972de9354a8e420",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/php/api-docs-link.md": {
+      "status": "pending",
+      "upstream_sha": "6b55e14450019598a2c4f7ef93f04b4c386599af",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/php/php-generated.md": {
+      "status": "pending",
+      "upstream_sha": "3a5007145266ff5b23fde537eb1b539ada541638",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/protobuf/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "76d04cb81659904b637b7b61e4464d60227ebcb1",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/protobuf/edition-2023-spec.md": {
+      "status": "pending",
+      "upstream_sha": "991c5febd52fb56b768250df5414b0707c2f2adf",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/protobuf/edition-2024-spec.md": {
+      "status": "pending",
+      "upstream_sha": "931d22418a85f2749de7099164eab77daeaefaba",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/protobuf/google.protobuf.md": {
+      "status": "pending",
+      "upstream_sha": "8f49edd0c386113c6392cdae98509f60ae0f6051",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/protobuf/mime-types.md": {
+      "status": "pending",
+      "upstream_sha": "2652ad7dde321e4c69c58ed2d4ff5601c97bef9a",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/protobuf/proto2-spec.md": {
+      "status": "pending",
+      "upstream_sha": "a482122486101741ea354bd3ede0fa32f3a17b32",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/protobuf/proto3-spec.md": {
+      "status": "pending",
+      "upstream_sha": "9ff6379933305c4526bba191e9964dd0133f4918",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/protobuf/textformat-spec.md": {
+      "status": "pending",
+      "upstream_sha": "e64bba6672dcc448c7bbc1d1b9d65fa1bafc83ae",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/python/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "f1923c7d7b77b83bb7551df7a50dbe0ebb1ac83f",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/python/api-docs-link.md": {
+      "status": "pending",
+      "upstream_sha": "87bf404a7aaf0dac6af94c69485995f64528f490",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/python/python-comparison.md": {
+      "status": "pending",
+      "upstream_sha": "586eca4b5d3e98fc59214de7c48f083a787d0b32",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/python/python-generated.md": {
+      "status": "pending",
+      "upstream_sha": "0ee1bed93fed57cea4bf422ace66f68d61af46ed",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/ruby/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "fe969da879550377e59540ae1063e94694cb2fac",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/ruby/ruby-generated.md": {
+      "status": "pending",
+      "upstream_sha": "f029c5f7dce66097755a1fe8f5648673a310b745",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/rust/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "a0e926a07c6b1013a2398df3d96135821bea08cb",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "reference/rust/building-rust-protos.md": {
+      "status": "pending",
+      "upstream_sha": "8ec52118e757c1bbd5ae3302d98b344dd679985e",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/rust/rust-design-decisions.md": {
+      "status": "pending",
+      "upstream_sha": "8ee0da7f1c1dcfbb170f12d47ef34acc3bdd20ea",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/rust/rust-generated.md": {
+      "status": "pending",
+      "upstream_sha": "f9e2c1adf4816f5ac0348857524883a56b3a3de0",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "reference/rust/rust-redaction.md": {
+      "status": "pending",
+      "upstream_sha": "a7100f053fd672329b81222f4357eeba4f26ccbb",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "search.md": {
+      "status": "skip",
+      "upstream_sha": "d9a4d5beef4ccd08395ba3bfe01bdb1c4c20a4c9",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "站点功能页：导航/论坛链接/搜索占位页，无正文"
+    },
+    "support/_index.md": {
+      "status": "skip-partial",
+      "upstream_sha": "d81c8b16a6b8a11c9d09b5138f593d611f3be0b6",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null,
+      "notes": "列表页：仅译 frontmatter 标题/描述与导语"
+    },
+    "support/cross-version-runtime-guarantee.md": {
+      "status": "pending",
+      "upstream_sha": "5476db1eda0a03a70ed6520397b19a6dfb85b9fc",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "support/debugging-playbook.md": {
+      "status": "pending",
+      "upstream_sha": "ebb92b1968ab7a38562f32f7e86435b3435aecce",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "support/migration.md": {
+      "status": "pending",
+      "upstream_sha": "15b66a69c3d32831ba0cfbaa573ba17fbbc192ef",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    },
+    "support/version-support.md": {
+      "status": "pending",
+      "upstream_sha": "e201a275a1942c3cae238835c961de223a6a241b",
+      "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
+      "translated_at": null,
+      "translator": null
+    }
+  }
+}
