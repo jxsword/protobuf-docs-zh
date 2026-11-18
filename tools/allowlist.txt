@@ -29,3 +29,7 @@ zh/support/_index.md
 # kotlinx.serialization 是 Kotlin 序列化库的专有名称，保留英文不译；
 # 按行字面豁免，避免库名中的 serialization 触发术语检查。
 kotlinx.serialization
+#
+# google.protobuf.md 中 google.feature.v1 为 API 包名标识符（semver 示例），
+# 其中的 feature 并非术语 feature=特性，按行字面豁免。
+google.feature.v1

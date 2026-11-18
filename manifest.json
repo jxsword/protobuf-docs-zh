@@ -1215,11 +1215,11 @@
       "translator": "agent"
     },
     "reference/java/java-utf8-validation.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "1e065a8056dbad53d95cb676e0d48a175c74547b",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/kotlin/_index.md": {
       "status": "skip-partial",
@@ -1504,11 +1504,11 @@
       "translator": null
     },
     "reference/kotlin/kotlin-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "43dc541575e958ea7466d7feaace8021bfebdce1",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/objective-c/_index.md": {
       "status": "skip-partial",
@@ -1519,18 +1519,18 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/objective-c/objective-c-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "1609f50f22da5e28a9a7638981dbad46a0838f0b",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/other.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "ad0f2034ef00f690b52df78c65cd34d92db67037",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/php/_index.md": {
       "status": "skip-partial",
@@ -1549,11 +1549,11 @@
       "notes": "API 文档跳转占位页（manualLink 跳转，无正文）；title 为语言名+API 组合，无需翻译——与 forum-link.md 同性质，Phase 0 遗漏项补确认"
     },
     "reference/php/php-generated.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "3a5007145266ff5b23fde537eb1b539ada541638",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/protobuf/_index.md": {
       "status": "skip-partial",
@@ -1564,32 +1564,32 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/protobuf/edition-2023-spec.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "991c5febd52fb56b768250df5414b0707c2f2adf",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/protobuf/edition-2024-spec.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "931d22418a85f2749de7099164eab77daeaefaba",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/protobuf/google.protobuf.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "8f49edd0c386113c6392cdae98509f60ae0f6051",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/protobuf/mime-types.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "2652ad7dde321e4c69c58ed2d4ff5601c97bef9a",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-19",
+      "translator": "agent"
     },
     "reference/protobuf/proto2-spec.md": {
       "status": "pending",
