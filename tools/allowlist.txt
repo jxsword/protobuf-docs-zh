@@ -25,3 +25,7 @@ zh/reference/python/_index.md
 zh/reference/ruby/_index.md
 zh/reference/rust/_index.md
 zh/support/_index.md
+#
+# kotlinx.serialization 是 Kotlin 序列化库的专有名称，保留英文不译；
+# 按行字面豁免，避免库名中的 serialization 触发术语检查。
+kotlinx.serialization

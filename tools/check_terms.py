@@ -143,7 +143,11 @@ def _inside_parens(line: str, start: int, end: int) -> bool:
 
 
 def check_terms(rel: str, text: str, glossary: list[dict], allowlist: list[str]) -> list[str]:
-    """术语一致性检查：英文术语裸露出现（未括注）即告警。"""
+    """术语一致性检查：英文术语裸露出现（未括注）即告警。
+
+    「首现括注、后文径用」语义：同一文件内，某术语首次以括注形态出现后，
+    其后的裸出现不再告警。
+    """
     findings: list[str] = []
     if file_allowed(rel, allowlist):
         return findings
@@ -157,6 +161,9 @@ def check_terms(rel: str, text: str, glossary: list[dict], allowlist: list[str])
                 re.IGNORECASE,
             )
             compiled.append((pattern, variant, entry["zh"]))
+
+    # 先按 frontmatter/围栏/白名单状态收集有效正文行
+    processed: list[tuple[int, str]] = []
     in_fence = False
     in_frontmatter = False
     fm_delim = ""
@@ -177,10 +184,26 @@ def check_terms(rel: str, text: str, glossary: list[dict], allowlist: list[str])
             continue
         if line_allowed(raw, allowlist):
             continue
-        line = strip_line(raw)
+        processed.append((no, strip_line(raw)))
+
+    # 第一遍：记录每个变体首个括注形态出现的行号
+    first_annotated: dict[str, int] = {}
+    for no, line in processed:
+        for pattern, variant, _zh in compiled:
+            for m in pattern.finditer(line):
+                if _paren_wrapped(line, m.start(), m.end()) or _inside_parens(line, m.start(), m.end()):
+                    key = variant.lower()
+                    if key not in first_annotated:
+                        first_annotated[key] = no
+
+    # 第二遍：裸出现判定（首现括注行之后的裸出现豁免）
+    for no, line in processed:
         for pattern, variant, zh in compiled:
             for m in pattern.finditer(line):
                 if _paren_wrapped(line, m.start(), m.end()) or _inside_parens(line, m.start(), m.end()):
+                    continue
+                fa = first_annotated.get(variant.lower())
+                if fa is not None and no >= fa:
                     continue
                 snippet = line[max(0, m.start() - 24):m.end() + 24].strip()
                 findings.append(
