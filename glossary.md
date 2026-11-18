@@ -129,4 +129,8 @@
 | asset | 发布产物 | GitHub release 资产语境 |
 | extension range | 扩展区间 | |
 | deep clone | 深拷贝 | |
-| map entry | 映射条目 | map 的线路格式承载消息 | |
+| map entry | 映射条目 | map 的线路格式承载消息 |
+| stub | 存根 | |
+| camel case | 驼峰命名 | |
+| lazy decoding | 惰性解码 | |
+| fully-qualified | 完全限定 | | |
