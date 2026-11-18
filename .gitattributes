@@ -1,0 +1,2 @@
+# 统一 LF（Windows 下避免 CRLF 噪音；二进制文件由 git 自动识别不转换）
+* text=auto eol=lf
