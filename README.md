@@ -64,8 +64,8 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 | 状态 | 数量 | 说明 |
 | --- | --- | --- |
-| pending | 155 | 待翻译 |
-| translated | 55 | 已完成并通过质检（P0 全部 35 + P1 批次 1–3） |
+| pending | 145 | 待翻译（P2 81 / P3 64） |
+| translated | 65 | 已完成并通过质检（**Phase 1 P0 与 Phase 2 P1 全部完成**） |
 | update-needed | 0 | 上游变更，需按 diff 更新 |
 | skip-partial | 22 | 列表页，仅译标题/描述与导语 |
 | skip | 3 | 站点功能页，不翻译 |
@@ -76,7 +76,7 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 | 优先级 | 范围 | 文件数 | 待办 |
 | --- | --- | --- | --- |
 | P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | **0（完成）** |
-| P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | 10 |
+| P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | **0（完成）** |
 | P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | 81 |
 | P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | 64 |
 
@@ -164,8 +164,12 @@ includes 联动机制（更新时标记引用页 update-needed(review)）已实�
   objective-c-generated（1290 行）+ kotlin / php generated +
   java-utf8-validation + other。审校修复 15 处（2 P2：FieldMask 包含方向
   译反、无标记增译删除）。
-- 下一批：P1 批次 4–5（python / ruby / rust 系列 10 篇），
-  见 `tasks/pending-2026-11-19.md`。
+- **P1 批次 4–5（10 文件，2026-11-19 合入 main）**：三大语言规范
+  （proto2-spec / proto3-spec / textformat-spec）+ python 2 篇 + ruby +
+  rust 4 篇。审校修复 9 处（1 P2：rust oneof 标题口径还原）；同源三规范
+  与 edition-2023-spec 措辞交叉核对一致。**Phase 2 P1 全部完成（54 文件）**。
+- 下一批：P2 Phase 3 reference/**/api-docs 自动生成页（81 文件，可延后）
+  或 P3 Phase 4 news / support（64 文件），见 `tasks/pending-2026-11-19.md`。
 
 ## 持续更新
 
