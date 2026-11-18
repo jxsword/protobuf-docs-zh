@@ -64,8 +64,8 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 | 状态 | 数量 | 说明 |
 | --- | --- | --- |
-| pending | 197 | 待翻译 |
-| translated | 20 | 已完成并通过质检（P0 批次 1–2） |
+| pending | 186 | 待翻译 |
+| translated | 31 | 已完成并通过质检（**Phase 1 P0 全部完成**，含批次 1–3） |
 | update-needed | 0 | 上游变更，需按 diff 更新 |
 | skip-partial | 22 | 列表页，仅译标题/描述与导语 |
 | skip | 3 | 站点功能页，不翻译 |
@@ -75,7 +75,7 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 | 优先级 | 范围 | 文件数 | 待办 |
 | --- | --- | --- | --- |
-| P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | 11 |
+| P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | **0（完成）** |
 | P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | 41 |
 | P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | 81 |
 | P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | 64 |
@@ -143,8 +143,13 @@ includes 联动机制（更新时标记引用页 update-needed(review)）已实�
   programming-guides 前 5 篇（addons / deserialize-debug / editions /
   encoding）。质检 20/20 通过（含批次 1 回归）；审校修复 31 处；
   check_terms 升级支持「首现括注、后文径用」语义。
-- 下一批：P0 批次 3（programming-guides 其余 11 篇），
-  见 `tasks/pending-2026-11-19.md`。
+- **P0 批次 3（11 文件，2026-11-19 合入 main）**：programming-guides 全部
+  11 篇（含 proto2 1848 行、proto3 1363 行两篇语言规范长文）。质检与
+  全量回归 31/31 通过；审校修复 31 处（json.md 2 P2：JSON 表格类型词
+  还原英文、`<code>` 标签还原；style.md 1 P2：descriptor 字面名前置）；
+  glossary 批量补入 15 条新术语，singular 译法全仓统一。
+- **Phase 1 P0 全部完成（35 文件）**。下一批：P1 Phase 2
+  reference 人工撰写页（41 文件），见 `tasks/pending-2026-11-19.md`。
 
 ## 持续更新
 
