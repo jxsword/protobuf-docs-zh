@@ -794,7 +794,7 @@ flag 解析器同时支持名称和数字。名称在没有歧义时可以使用
 
 ## 扩展（仅限 proto2 与版次） {#extension}
 
-给定一个带有扩展范围（extension range）的消息：
+给定一个带有扩展区间（extension range）的消息：
 
 ```proto
 message Foo {
