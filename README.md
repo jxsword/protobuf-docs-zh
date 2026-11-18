@@ -64,8 +64,8 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 | 状态 | 数量 | 说明 |
 | --- | --- | --- |
-| pending | 186 | 待翻译 |
-| translated | 31 | 已完成并通过质检（**Phase 1 P0 全部完成**，含批次 1–3） |
+| pending | 173 | 待翻译 |
+| translated | 37 | 已完成并通过质检（P0 全部 35 + P1 批次 1 的 6 篇） |
 | update-needed | 0 | 上游变更，需按 diff 更新 |
 | skip-partial | 22 | 列表页，仅译标题/描述与导语 |
 | skip | 3 | 站点功能页，不翻译 |
@@ -76,19 +76,20 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 | 优先级 | 范围 | 文件数 | 待办 |
 | --- | --- | --- | --- |
 | P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | **0（完成）** |
-| P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | 41 |
+| P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | 28 |
 | P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | 81 |
 | P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | 64 |
 
 ## skip 清单（Phase 0 逐个确认结果）
 
-**整页 skip（status=skip，3 个）**——均为站点功能页，无正文：
+**整页 skip（status=skip，10 个）**——均为站点功能/跳转页，无正文：
 
 | 文件 | 确认结果 |
 | --- | --- |
 | `navbar.md` | 纯导航链接列表（4 行链接），无正文，不翻译 |
 | `forum-link.md` | 仅 frontmatter（标题 + 论坛跳转链接），不翻译 |
 | `search.md` | 仅 frontmatter（标题 + 搜索布局占位），不翻译 |
+| `reference/{cpp,csharp,dart,go,java,php,python}/api-docs-link.md`（7 个） | 纯 frontmatter 跳转占位页（manualLink 指向各语言 API 文档站，无正文）；title 为语言名+API 组合无可译内容。Phase 0 skip 清单遗漏项，P1 批次 1 时补确认 |
 
 **列表页 skip-partial（status=skip-partial，22 个）**——仅译 frontmatter 的
 `title` / `linkTitle` / `description` 与正文导语，条目链接列表保留英文
@@ -148,8 +149,13 @@ includes 联动机制（更新时标记引用页 update-needed(review)）已实�
   全量回归 31/31 通过；审校修复 31 处（json.md 2 P2：JSON 表格类型词
   还原英文、`<code>` 标签还原；style.md 1 P2：descriptor 字面名前置）；
   glossary 批量补入 15 条新术语，singular 译法全仓统一。
-- **Phase 1 P0 全部完成（35 文件）**。下一批：P1 Phase 2
-  reference 人工撰写页（41 文件），见 `tasks/pending-2026-11-19.md`。
+- **P1 批次 1（2026-11-19 合入 main）**：reference/cpp 4 篇（abseil /
+  arenas / cpp-generated / string-view）+ csharp / dart generated 2 篇
+  正文；另将 7 个语言的 `api-docs-link.md` 逐个确认为跳转占位页标记
+  skip（Phase 0 遗漏项补录）。审校修复 20 处，裁定三项口径（HTML 实体
+  随散文翻译、markdown 转义符可归一、glossary 补 3 条）。
+- 下一批：P1 批次 2（go 系列 7 篇 + java 2 篇 + go api-docs-link skip），
+  见 `tasks/pending-2026-11-19.md`。
 
 ## 持续更新
 
