@@ -107,3 +107,23 @@
 | quick start | 快速开始 | |
 | installation | 安装 | |
 | downloads | 下载 | |
+
+### Phase 1 批次新增（2026-11-19）
+
+| 英文 | 中文 | 备注 |
+| --- | --- | --- |
+| singular | 单数 | 指字段基数（cardinality），译"单数字段（singular field）" |
+| cardinality | 基数 | |
+| wire type | 线路类型 | 二进制编码中的类型标记 |
+| round-trip; round trip | 往返 | |
+| self-delimiting | 自定界 | |
+| length-delimited | 长度限定 | 长度前缀定界记录 |
+| hazzer | hazzer | 保留，指设置 hasbit 的内联辅助方法 |
+| enumerator | 枚举项 | enum 的取值成员 |
+| no presence | 无存在性 | |
+| presence discipline | 存在性规则 | |
+| open enum; closed enum | - | 保留 enum；作概念译"开放式/封闭式枚举" |
+| add-on | 附加组件 | 区别于 plugin=插件（编译器插件） |
+| redact; redaction | 脱敏 | |
+| retention | 保留性 | 指选项的 RETENTION 属性 |
+| asset | 发布产物 | GitHub release 资产语境 | |
