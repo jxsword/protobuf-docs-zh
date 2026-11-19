@@ -78,7 +78,7 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 | P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | **0（完成）** |
 | P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | **0（完成）** |
 | P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | 81 |
-| P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | 64 |
+| P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | 45（**P3 精选 22 篇已完成**：design-decisions 5、support 4、news 重大公告 13；news 剩余 30 篇局部支持变更/内部 API 弃用类按计划保持可选待办） |
 
 ## skip 清单（Phase 0 逐个确认结果）
 
@@ -168,8 +168,13 @@ includes 联动机制（更新时标记引用页 update-needed(review)）已实�
   （proto2-spec / proto3-spec / textformat-spec）+ python 2 篇 + ruby +
   rust 4 篇。审校修复 9 处（1 P2：rust oneof 标题口径还原）；同源三规范
   与 edition-2023-spec 措辞交叉核对一致。**Phase 2 P1 全部完成（54 文件）**。
-- 下一批：P2 Phase 3 reference/**/api-docs 自动生成页（81 文件，可延后）
-  或 P3 Phase 4 news / support（64 文件），见 `tasks/pending-2026-11-19.md`。
+- **P3 批次 1–2（22 文件，2026-11-20 合入 main）**：design-decisions 全部
+  5 篇 + support 全部 4 篇 + news 重大公告精选 13 篇（版本机制、破坏性变更
+  政策、Editions 发布、26.x/v34/v38 破坏变更、Go Opaque API、停止支持
+  Objective-C 等）。审校修复跨文件口径统一（替代方案、免责段套语并版）
+  与 P3 若干；全量回归 87/87 通过。
+- 剩余：P2 api-docs 81 篇（自动生成，按计划可延后）、news 剩余 30 篇
+  （局部支持变更/内部 API 弃用类，可选）。
 
 ## 持续更新
 
