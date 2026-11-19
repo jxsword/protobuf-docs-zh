@@ -33,3 +33,7 @@ kotlinx.serialization
 # google.protobuf.md 中 google.feature.v1 为 API 包名标识符（semver 示例），
 # 其中的 feature 并非术语 feature=特性，按行字面豁免。
 google.feature.v1
+#
+# insertion-points-and-generic-services.md 中 "WARNING: This feature..." 为
+# 源码注释逐字引用（审校裁定保留英文原文+中文括注），按行字面豁免。
+WARNING: This feature is currently EXPERIMENTAL and is subject to change
