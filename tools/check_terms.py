@@ -39,6 +39,7 @@ _ANCHOR_RE = re.compile(r"\{#[^}]+\}")
 _INLINE_CODE_RE = re.compile(r"`[^`]+`")
 _URL_RE = re.compile(r"\bhttps?://\S+")
 _HTML_TAG_RE = re.compile(r"<[^>]+>")
+_HTML_CODE_RE = re.compile(r"<(?:code|pre)\b[^>]*>.*?</(?:code|pre)>", re.DOTALL | re.IGNORECASE)
 _MD_LINK_RE = re.compile(r"\[([^\]]*)\]\([^)]*\)")
 _RESIDUE_RE = re.compile(r"(?:[A-Za-z][A-Za-z0-9'’\-]*\s+){5,}[A-Za-z][A-Za-z0-9'’\-]*")
 _WORD_RE = re.compile(r"[A-Za-z][A-Za-z0-9'’\-]*")
@@ -53,6 +54,7 @@ def _setup_stdio() -> None:
 def strip_line(line: str) -> str:
     """移除行内不该参与术语/残留判定的成分。"""
     line = _SHORTCODE_RE.sub(" ", line)
+    line = _HTML_CODE_RE.sub(" ", line)  # <code>/<pre> 的内容属代码，不参与判定
     line = _ANCHOR_RE.sub(" ", line)  # 标题锚点 {#...} 原样保留，不参与判定
     line = _INLINE_CODE_RE.sub(" ", line)
     line = _URL_RE.sub(" ", line)

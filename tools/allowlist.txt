@@ -1,6 +1,7 @@
 # tools/allowlist.txt — check_terms.py 白名单
 # 格式：含 / * ? 的条目按 fnmatch 通配匹配仓库相对路径（整文件豁免）；
 #       其余条目按字面子串匹配（豁免所在行）。以 # 开头为注释。
+# 注意：字面条目本身不得含有 / * ? 字符，否则会被误当作通配模式而失效。
 #
 # skip-partial 列表页：仅译标题/描述与导语，正文英文链接列表为合法保留内容。
 zh/best-practices/_index.md
@@ -37,3 +38,37 @@ google.feature.v1
 # insertion-points-and-generic-services.md 中 "WARNING: This feature..." 为
 # 源码注释逐字引用（审校裁定保留英文原文+中文括注），按行字面豁免。
 WARNING: This feature is currently EXPERIMENTAL and is subject to change
+#
+# cpp/api-docs 各页的类头签名块（#include 行之后的 namespace 声明）属 C++ 代码
+# 本体（风格规范规则 1：代码本体不译），其中的 namespace 并非概念性术语，
+# 按行字面豁免（仅命中签名块所在行）。
+<br>namespace <a href="#google.protobuf">
+<br>namespace <a href="#google.protobuf.io">
+#
+# google.protobuf.descriptor.md 成员表中 typedef 行的标识符串
+# （DescriptorProto Proto、FieldDescriptorProto Proto 等）为 C++ 签名本体，
+# 相邻单元格剥离标签后连成 6 词以上“残留”，按行字面豁免（仅命中成员表行）。
+DescriptorProto <b>Proto
+FieldDescriptorProto <b>Proto
+#
+# google.protobuf.descriptor.md 上游 HTML 存在未闭合的 href 属性（href 以双引号
+# 开头但以单引号结尾），verify_structure.py 的链接提取会把该属性行一直吞到
+# 下一个双引号，覆盖随后约 12 行示例正文；为保持链接序列与上游逐字一致，
+# 该区间正文只能保留英文原文（中文释义已前置译出），按行字面豁免残留检查。
+Note that the extensions may be extending
+#
+# google.protobuf.descriptor.md 中 C++ 签名与方法名标识符（extension()、service()
+# 等成员函数名）为代码本体，保留英文；按行字面豁免（仅命中对应签名行）。
+-&gt;extension(0)
+Descriptor::extension(
+FileDescriptor::extension(
+FileDescriptor::service(
+#
+# descriptor.pb.md 中 namespace 赋值行为 C# 代码本体（Google.Protobuf.Reflection），
+# 按行字面豁免。
+namespace = "Google.Protobuf.Reflection";
+#
+# descriptor.pb.md 中 <pre> 块内的注释行（descriptor.proto 文件名与
+# "descriptor" 字段名引用），属代码语境，按行字面豁免。
+// descriptor.proto 必须针对速度进行优化
+// 使用名为 "descriptor" 的字段。
