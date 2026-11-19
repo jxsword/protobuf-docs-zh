@@ -22,8 +22,8 @@
       "status": "skip-partial",
       "upstream_sha": "caf73bea8458e96601d60f67e051fb455e3a94b6",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "best-practices/dos-donts.md": {
@@ -44,8 +44,8 @@
       "status": "skip-partial",
       "upstream_sha": "1d953c3357b3a2b1000b75d430056b657dd661dd",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "design-decisions/extensions-over-any.md": {
@@ -94,8 +94,8 @@
       "status": "skip-partial",
       "upstream_sha": "6819f57dac54ecef92b5091a10461cc6387c8d9d",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "editions/features.md": {
@@ -131,8 +131,8 @@
       "status": "skip-partial",
       "upstream_sha": "dc5b64865b05be1a352d70c5b6a1cc36582f8369",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "getting-started/cpptutorial.md": {
@@ -504,8 +504,8 @@
       "status": "skip-partial",
       "upstream_sha": "6d28fd907a0341f8930737585bf1b77cbf120d48",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "news/v21.md": {
@@ -596,8 +596,8 @@
       "status": "skip-partial",
       "upstream_sha": "7cb7e83fb1df1f126439dee9f08fe900620a1ddd",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "programming-guides/addons.md": {
@@ -709,16 +709,16 @@
       "status": "skip-partial",
       "upstream_sha": "196b4d8362961692981d01f65c08cf2ab3e86e5c",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/cpp/_index.md": {
       "status": "skip-partial",
       "upstream_sha": "6f2d2689028d4cf05728318bc8110cd1bb3cc06a",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/cpp/abseil.md": {
@@ -740,8 +740,8 @@
       "status": "skip-partial",
       "upstream_sha": "4fa254611a6ac2fbac1170e7c800e61e6c511a65",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/cpp/api-docs/google.protobuf.arena.md": {
@@ -1077,8 +1077,8 @@
       "status": "skip-partial",
       "upstream_sha": "ca4234f8cfc84e241f57022a1f7f8911c110533e",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/csharp/api-docs-link.md": {
@@ -1100,8 +1100,8 @@
       "status": "skip-partial",
       "upstream_sha": "72ae1070e335cbb176e68bf091e818bb34abedf5",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/dart/api-docs-link.md": {
@@ -1123,8 +1123,8 @@
       "status": "skip-partial",
       "upstream_sha": "3fce04156a8596bfdd96554f55a874119ebc91da",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/go/api-docs-link.md": {
@@ -1188,8 +1188,8 @@
       "status": "skip-partial",
       "upstream_sha": "2e6412a3985165a34e5bdd1eb6abea3c0fdd4711",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/java/api-docs-link.md": {
@@ -1225,16 +1225,16 @@
       "status": "skip-partial",
       "upstream_sha": "ddc9959874c5a1b53f6938878b8b5c9068f18f54",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/kotlin/api-docs/_index.md": {
       "status": "skip-partial",
       "upstream_sha": "90bb4c3f44a4ed5b8dab0bfb56ef6234264c57d4",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/-dsl-list.md": {
@@ -1514,8 +1514,8 @@
       "status": "skip-partial",
       "upstream_sha": "88ece7858dcd3fc8422fa46277180fb4ea9bf39f",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/objective-c/objective-c-generated.md": {
@@ -1536,8 +1536,8 @@
       "status": "skip-partial",
       "upstream_sha": "3c55b5b154f1c59be81c7596f972de9354a8e420",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/php/api-docs-link.md": {
@@ -1559,8 +1559,8 @@
       "status": "skip-partial",
       "upstream_sha": "76d04cb81659904b637b7b61e4464d60227ebcb1",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/protobuf/edition-2023-spec.md": {
@@ -1616,8 +1616,8 @@
       "status": "skip-partial",
       "upstream_sha": "f1923c7d7b77b83bb7551df7a50dbe0ebb1ac83f",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/python/api-docs-link.md": {
@@ -1646,8 +1646,8 @@
       "status": "skip-partial",
       "upstream_sha": "fe969da879550377e59540ae1063e94694cb2fac",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/ruby/ruby-generated.md": {
@@ -1661,8 +1661,8 @@
       "status": "skip-partial",
       "upstream_sha": "a0e926a07c6b1013a2398df3d96135821bea08cb",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/rust/building-rust-protos.md": {
@@ -1705,8 +1705,8 @@
       "status": "skip-partial",
       "upstream_sha": "d81c8b16a6b8a11c9d09b5138f593d611f3be0b6",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-20",
+      "translator": "agent",
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "support/cross-version-runtime-guarantee.md": {
