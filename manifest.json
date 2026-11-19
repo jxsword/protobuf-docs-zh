@@ -49,39 +49,39 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "design-decisions/extensions-over-any.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f94ed7f7edcd3c257d646e022f7ad156853023d0",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "design-decisions/implicit-presence.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "2dad6dcf9d297f78e3da86abaf00f8a9c7a9b2a2",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "design-decisions/insertion-points-and-generic-services.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "da6cf7b1a9037d83571f65ea896ab5af26da3902",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "design-decisions/nullable-getters-setters.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "ec22b6f329ee7ce21111da94366a58c945b28d7a",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "design-decisions/opaque-apis.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "0de8f5211305874caa05f163797754c248f5f46e",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "downloads.md": {
       "status": "pending",
@@ -1710,32 +1710,32 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "support/cross-version-runtime-guarantee.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "5476db1eda0a03a70ed6520397b19a6dfb85b9fc",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "support/debugging-playbook.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "ebb92b1968ab7a38562f32f7e86435b3435aecce",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "support/migration.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "15b66a69c3d32831ba0cfbaa573ba17fbbc192ef",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "support/version-support.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "e201a275a1942c3cae238835c961de223a6a241b",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     }
   }
 }
