@@ -64,11 +64,11 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 | 状态 | 数量 | 说明 |
 | --- | --- | --- |
-| pending | 145 | 待翻译（P2 81 / P3 64） |
-| translated | 65 | 已完成并通过质检（**Phase 1 P0 与 Phase 2 P1 全部完成**） |
+| pending | 123 | 待翻译（P2 api-docs 81 / news 剩余 30 / history、downloads 等 12） |
+| translated | 87 | 已完成并通过质检（P0 全部 35 + P1 全部 54 + P3 精选 22） |
 | update-needed | 0 | 上游变更，需按 diff 更新 |
 | skip-partial | 22 | 列表页，仅译标题/描述与导语 |
-| skip | 3 | 站点功能页，不翻译 |
+| skip | 10 | 站点功能/跳转页，不翻译 |
 | removed | 0 | 上游已删除（译文归档 zh/_archived/） |
 
 **按优先级 / 待办**（优先级定义见 docs/translation-plan.md 第六节）：
@@ -77,7 +77,7 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 | --- | --- | --- | --- |
 | P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | **0（完成）** |
 | P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | **0（完成）** |
-| P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | 81 |
+| P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | 81（1 已 skip） |
 | P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | 45（**P3 精选 22 篇已完成**：design-decisions 5、support 4、news 重大公告 13；news 剩余 30 篇局部支持变更/内部 API 弃用类按计划保持可选待办） |
 
 ## skip 清单（Phase 0 逐个确认结果）
