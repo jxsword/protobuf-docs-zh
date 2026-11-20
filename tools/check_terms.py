@@ -168,6 +168,7 @@ def check_terms(rel: str, text: str, glossary: list[dict], allowlist: list[str])
     processed: list[tuple[int, str]] = []
     in_fence = False
     in_frontmatter = False
+    in_html_pre = False
     fm_delim = ""
     for no, raw in enumerate(text.splitlines(), 1):
         s = raw.strip()
@@ -178,6 +179,15 @@ def check_terms(rel: str, text: str, glossary: list[dict], allowlist: list[str])
         if in_frontmatter:
             if s == fm_delim:
                 in_frontmatter = False
+            continue
+        if in_html_pre:
+            if "</pre" in raw.lower():
+                in_html_pre = False
+            continue
+        if "<pre" in raw.lower():
+            in_html_pre = True
+            if "</pre" in raw.lower():
+                in_html_pre = False
             continue
         if _FENCE_RE.match(raw):
             in_fence = not in_fence
@@ -221,6 +231,7 @@ def check_residue(rel: str, text: str, allowlist: list[str]) -> list[str]:
         return findings
     in_fence = False
     in_frontmatter = False
+    in_html_pre = False
     fm_delim = ""
     for no, raw in enumerate(text.splitlines(), 1):
         s = raw.strip()
@@ -231,6 +242,15 @@ def check_residue(rel: str, text: str, allowlist: list[str]) -> list[str]:
         if in_frontmatter:
             if s == fm_delim:
                 in_frontmatter = False
+            continue
+        if in_html_pre:
+            if "</pre" in raw.lower():
+                in_html_pre = False
+            continue
+        if "<pre" in raw.lower():
+            in_html_pre = True
+            if "</pre" in raw.lower():
+                in_html_pre = False
             continue
         if _FENCE_RE.match(raw):
             in_fence = not in_fence

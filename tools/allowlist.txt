@@ -72,3 +72,81 @@ namespace = "Google.Protobuf.Reflection";
 # "descriptor" 字段名引用），属代码语境，按行字面豁免。
 // descriptor.proto 必须针对速度进行优化
 // 使用名为 "descriptor" 的字段。
+#
+# google.protobuf.message.md 大示例 <pre> 中的 C++ 代码行（const Descriptor*
+# descriptor = ...）与 cpp 类型映射表两行（CPPTYPE_ENUM / CPPTYPE_MESSAGE 右侧
+# 的英文说明为 <pre> 本体，风格规范规则 1：代码块本体不译），按行字面豁免。
+const Descriptor
+CPPTYPE_ENUM
+CPPTYPE_MESSAGE
+#
+# google.protobuf.compiler.plugin.pb.md 的 import 语句行（plugin.proto 本体）
+# 中的 descriptor.proto 为文件名标识符（代码本体不译），按行字面豁免。
+descriptor.proto";
+
+# google.protobuf.util.message_differencer.md 上游 HTML 存在未闭合的 href 属性
+# （href="/programming-guides/proto?csw=1#optional' 未用双引号闭合），链接提取
+# 会把该属性一直吞到下一个双引号、覆盖随后约 2 行正文；为保持链接序列与上游
+# 逐字一致，该区间正文只能保留英文原文（中文释义已前置译出），按行字面豁免。
+ignores unknown fields. Use
+This method REQUIRES that the two messages have the same
+#
+# google.protobuf.message_lite.md 中 InitializationErrorString 的字符串字面量
+# ("(cannot determine missing fields for lite message)") 为代码本体（风格规范
+# 规则 1：字符串字面量不译），跨行断开导致残留告警，按行字面豁免；
+# ParseFlags 枚举取值表（kMerge/kParse/... 标识符）同属代码本体，按行豁免。
+determine missing fields for lite message
+td>kMerge
+
+#
+# google.protobuf.service.md 中 proto 服务定义示例 <pre> 块内的 rpc 关键字
+# 为 proto 语言关键字（代码本体不译，风格规范规则 1），按行字面豁免。
+rpc Foo(MyRequest) returns(MyResponse);
+#
+# kotlin api-docs Dokka 类页（DslList/DslMap 的 _index.md）：成员表 Summary
+# 单元格全部为 API 签名本体（Dokka 标记逐字保留），剥离标记后连成 6 词以上
+# 英文序列触发残留误报；两页的散文导语与章节标题均已翻译，按路径整文件豁免
+# （与上方 zh/reference/kotlin/api-docs/_index.md 的豁免逻辑同类）。
+zh/reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/_index.md
+zh/reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/_index.md
+#
+# kotlin api-docs Dokka 页（ExtensionList 三页）：-extension-list.md（构造函数页）
+# 与 extension.md（属性页）为纯 API 签名页（无散文正文），extension 为 API
+# 属性名/构造参数名标识符（Dokka 标记逐字保留）；_index.md 成员表 Summary 单元格
+# 全部为 API 签名本体，剥离标记后连成 6 词以上英文序列触发残留误报，散文导语与
+# 章节标题均已翻译。三页按路径整文件豁免（与上方 DslList/DslMap _index.md 豁免
+# 逻辑同类）。
+zh/reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/-extension-list.md
+zh/reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/_index.md
+zh/reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/extension.md
+#
+# kotlin api-docs Dokka 函数页（contains/get/set/is-a/unpack）：函数签名为
+# Kotlin 代码本体（风格规范规则 1 不译）；签名跨行折行导致参数括号与泛型子句
+# 在单行内不闭合，剥离链接后参数名 extension/value（位于括号内却无法按括号
+# 剔除）与泛型内的类型名 Message 裸露触发术语误报。按行字面豁免，仅命中签名
+# 所在行（散文本体均已翻译，不豁免）；Message.html)> 亦命中包页 _index.md 的
+# isA/unpack 两个成员表行（其散文已译，豁免仅跳过该行检查）。
+()(extension:
+, value: [T]())
+Message.html)>
+#
+# message.md 中 Descriptor/Reflection 为 API 类名链接文字（<a> 内保留英文，
+# 规则允许），按行字面豁免。
+获取指向此消息类型的
+Reflection::GetUnknownFields()
+#
+# message.md 中表格散文行的 Descriptor/Reflection 为 API 类名（保留英文），
+# 逐行豁免（锚点不含斜杠字符）——见以下各条。
+# 逐行豁免（行号以译文当前版本为准）。
+</div> <hr><h3 id="Message.SpaceUsedLong.details"><code>virt
+</div> <hr><h3 id="Message.GetReflection.details"><code>cons
+<p>要获取 <a href='#Reflection'>Reflection</a>（针对给定的 <a href='#
+<p>出于效率方面的考虑，此接口才与 <a href='#Message'>Message</a> 分开；<a href
+id="Message.SpaceUsedLong.details"
+id="Message.GetReflection.details"
+（针对给定的
+出于效率方面的考虑
+#
+# unknown_field_set.md 中 Reflection/Message 为 API 类名链接文字（保留英文）。
+这与独立于任何序列化
+它们与

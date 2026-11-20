@@ -745,312 +745,312 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/cpp/api-docs/google.protobuf.arena.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "bd09ff282a1c2c0231c80f02f6a81839cf6e48d6",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.common.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "767097fe79fb9658b3a1cfbe86fe493191e64c8f",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.code_generator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "7ba7e5509d01b6f008aff3d375585acd9e6d4d52",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.command_line_interface.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "185026ecd19ce81d94682c7c973068683f761c67",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.cpp_generator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "48672e93b570ec7f3372a868b1e73e0bf440f3fa",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.csharp_generator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "bfe0bb7d0adf68315051b66d92a9af39e7f268ac",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.csharp_names.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "08155068504a6758d6ef6873ba61b3717a0eaa2f",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.importer.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "1804ffea037f6922fcffef3c2ad1e4d15a5c1713",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.java_generator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "9ca74e12df05d76f94366b1d0faa06011ece7e51",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.java_names.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f8b33d871fccd02af388f2be7e5bead7d53ba71d",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.javanano_generator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "a293ed869b8191d2f5f3a8f0891bf024f9ffea9b",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.js_generator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "6ab34ccb56278de49bc07487038e97977aa2787c",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.objectivec_generator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "e994ce5b6985c7e343411535b56d8f7655a00a34",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.objectivec_helpers.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "07557d4f4e42cd3742efff1928ae12b46ca8886d",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.parser.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "17de7af27ac4233847b8bcfbefe35685c9cfc4cd",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.plugin.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "61bc007fc664c53b27483e4792dc1dc0b1793d89",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.plugin.pb.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "37ce5409354e07ae4bd38013537f5bdffe5149c7",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.python_generator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "d8cad39d26f395fd482ee8d0c0b3546dbc1e0e10",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.compiler.ruby_generator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "29e9501741b6131254fdf0410bf0bb85912334e0",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.descriptor.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "3680f7cfbf131531c11a5cfdf383de5a42979a51",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.descriptor.pb.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "3e966f8a3f18b79293ae7ba6346a160689b0bbc3",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.descriptor_database.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "c787ecac91406ce908afbb672e1693b1a1923229",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.dynamic_message.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "be22de338d45dc34a3fa35625219faf50751a36c",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.io.coded_stream.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "c1bfca934f8dba6b3e49e96df4bdc837b82d4846",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.io.gzip_stream.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "1c87a23c00d2223572919433b5aa1d5c83f82939",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.io.printer.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "1623248a2230b13d59216f5d77bf55cdcc93e443",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.io.tokenizer.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "3845f9d76e4a6d1a1ae2a5eaba5149eda7ceb7f6",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.io.zero_copy_stream.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "0151e5ab3d587159da7dee3cad07c2467b9661d0",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.io.zero_copy_stream_impl.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f14a8f57922866dd128a8d1e30646fdbc1302cba",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.io.zero_copy_stream_impl_lite.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "9a773842e1da245b79be42f6fd132b4a4c87a0fc",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.map.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "bc0dc12d89b3ca3f5cd4977a25c7511470f433ba",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.message.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "d6b930db9c7aae43e142c5741a3064c7f8798ebf",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.message_lite.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "ee01ba1f866fb9b5197aa45087e3c479f69c34eb",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.repeated_field.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "62824ecd291d4ca953085b0539e2820afe6a2e94",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.service.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "e4d9b0070cecb119372ffba0a574b65a4c380815",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.text_format.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f02945f3438ad5548133a689d3c3c2970b9effd2",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.unknown_field_set.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "7ebb4623be83fa00e8c249b8f74d467c04df2bfe",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.util.field_comparator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "2e031bbe1489129bd80a4f24e0dc6f9492af1702",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.util.field_mask_util.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "864385650b5d7acc011821ecdac7051539c0eb70",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.util.json_util.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "6e263658f16d028d367a2043bcfa3581312af36c",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.util.message_differencer.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "37a80619f7f9d4e62a81fa6aa4c57733667b4c86",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-20",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.util.time_util.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "e011d8788df66596721ccf5c7a70f6212b7520e7",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.util.type_resolver.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "4866f95f17fd6e6fa801b35c4b3b52105f6d8b8d",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/api-docs/google.protobuf.util.type_resolver_util.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "aea64a3d8ae00200ce57df731f8531a374532c8e",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/cpp/arenas.md": {
       "status": "translated",
@@ -1238,270 +1238,265 @@
       "notes": "列表页：仅译 frontmatter 标题/描述与导语"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/-dsl-list.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "868d33bab502527523fe7dc146971b3c924e5b8c",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/_index.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "307de7c5d7e0f52e66d43ac71415fbacbd1d99b7",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
-      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/equals.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "504c09b0a348d2e3ad016d9fd85438cad7bc374f",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/hash-code.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "57dccb3966509e474b5031243d6e51f24c053ef7",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/iterator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "54ac64f902db65f1da8115458e229f03bd26fb61",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/list-iterator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f820e366418bc0830a9eabadc3dfc8a83eec4852",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-list/to-string.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "0bd1be208da0b3d34135187cb14c3dcc17d28bc2",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/-dsl-map.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "908e39e5b380857b45f885f1912b29244ed26ea0",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/_index.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "c1885aa6e7ecfc5b74a2d5dd6c08a4c106b24eed",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
-      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/entries.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "9555268b05c8157537900ebaf2509bded3ffaf69",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/equals.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "8023cb68003a1a3b6310b901935af7903cc91fdd",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/hash-code.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "b7dd94084a157bc4cbe33c77d836215650bff8f0",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/keys.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "be30a76fce02cfa348e33cc71c6c9190a836efa6",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/to-string.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "4be12f8c859b8acd605c4aa5c2d9666ec46433c0",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-map/values.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "3d5a4f842f0a592b70063fed185f62af9986c319",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-dsl-proxy/_index.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "0ca1b647c5430ac9e0d6ae8d13c2f585f71dcfb7",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
-      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/-extension-list.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "32bdf08417c148d7f558da3b77e7bec14d8f4b73",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/_index.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "46b9e23448f4ac5169f77661505492b4a097a875",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
-      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/equals.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "ed11b946026e30098867f9b2b18038874616606a",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/extension.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "40e43e1c723e44f5309400339b9d1549c161f0a4",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/hash-code.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "5e5e04189e417c4ac4905207715fb5289e945a74",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/iterator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "1619ef9a5425d12e29e752a4892642c424cd1cd5",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/list-iterator.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "2b19a33af7b949a86c5e51d3908ba25cd5174e57",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-extension-list/to-string.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "b85c4e618ebd909b8ef9474299980d1f082f608f",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-only-for-use-by-generated-proto-code/-only-for-use-by-generated-proto-code.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "297dba22519cdc6fad5abb41f7a23eac42488378",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-only-for-use-by-generated-proto-code/_index.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "4ffd55c128713fbc0aef9c2a634316ad7f2aee87",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
-      "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-proto-dsl-marker/-proto-dsl-marker.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "deb76062b35e4477ebeee39ec1f0f2b3d36b755d",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/-proto-dsl-marker/_index.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "52505497bdfa933a802b47ffc84b34d5980c7e08",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-21",
+      "translator": "agent",
       "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/_index.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "cf93d1b6b28b639d942f449147cdf8ce245ad4a1",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null,
+      "translated_at": "2026-11-21",
+      "translator": "agent",
       "notes": "Kotlin api-docs 自动生成页（Phase 3 范围）"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/contains.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "a51cf5ef94cc8425a8433ec4b2d76b016f73daf9",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/get.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "4152d4e8a29db82583e42af1594577cfefa1588a",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/is-a.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "c9e512cae5c49a8c00ff560389a76a08f87f1363",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/plus.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "f9346a40ab9627c6ef3af2d74d1aaa019d8f0ae5",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/set.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "7d702fe7dabe7b7dc06b6bc0d4515f1b6be6b0c1",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/to-byte-string-utf8.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "e3a379fdd5625e9fd9e3d06fe8f8c58e19cd8c69",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/to-byte-string.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "6b46a7c2d8acdd077e374270f1d725a5399a3ead",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/api-docs/protobuf-kotlin/com.google.protobuf.kotlin/unpack.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "c4f8a039644bd468c075f84bc06753845ad5df84",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "reference/kotlin/kotlin-generated.md": {
       "status": "translated",
