@@ -1,6 +1,10 @@
 # 官方仓库完整 clone（sync 脚本的数据源，不入库；见 docs/translation-plan.md 第三节）
 .upstream/
 
+# Hugo 中文站构建产物（M4，tools/build_site.py 组装；见 docs/decision_log.md DR-003）
+build_site/
+build_site_upstream_test/
+
 # 本地工具状态（Mimosa 安全扫描 hook 状态等）
 .mimosa/
 
