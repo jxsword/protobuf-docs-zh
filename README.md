@@ -21,7 +21,8 @@ protobuf-docs-zh/
 │   ├── sync_upstream.py     # fetch → 快照更新 → manifest 状态判定 → sync 报告
 │   ├── verify_structure.py  # 译文结构校验（标题/锚点/代码块/表格/链接/图片/shortcode/frontmatter）
 │   ├── check_terms.py       # 术语一致性 + 未翻译残留检测（含 tools/allowlist.txt 白名单）
-│   └── gen_tasks.py         # 生成任务清单 tasks/pending-<date>.md
+│   ├── gen_tasks.py         # 生成任务清单 tasks/pending-<date>.md
+│   └── build_site.py        # 组装 Hugo 中文站构建目录 build_site/（M4，方案A 混合站）
 ├── manifest.json        # 每个文件的 upstream_sha / upstream_commit / status / 时间
 ├── glossary.md          # 术语表（唯一权威译法源，91 条）
 ├── style-guide.md       # 翻译风格规范与单文件翻译 SOP
@@ -181,6 +182,40 @@ includes 联动机制（更新时标记引用页 update-needed(review)）已实�
   全量回归 210/210 通过。**
   注：本轮批次提交直接落于 main（agent 流水线稳定后逐批质检即提交，
   未走 translate/* 分支——对计划第七节分支策略的执行偏离，如实记录）。
+
+## 在线预览与发布（M4）
+
+- **在线站点**：https://jxsword.github.io/protobuf-docs-zh/ —— GitHub Pages，
+  push `main` 后由 [.github/workflows/deploy.yml](.github/workflows/deploy.yml)
+  自动构建发布（Pages source = GitHub Actions，决策 DR-004）。
+- **本地构建**：
+
+  ```bash
+  python tools/build_site.py     # 组装 build_site/（不入库），并与 manifest 交叉校验
+  cd build_site
+  npm install                    # postcss-cli + autoprefixer（docsy SCSS 需要）
+  export NODE_PATH="$PWD/node_modules"
+  hugo --gc --minify -d public   # 需 Hugo extended 0.148.2
+  ```
+
+- **本地预览**：`cd build_site && hugo server`（NODE_PATH 同上）→
+  http://127.0.0.1:1313/protobuf-docs-zh/
+- **构建设计**（详见 `docs/decision_log.md` DR-003/004/005 与
+  `tools/build_site.py` 内注释）：
+  - **混合站**：content = 上游全量（242 md + 631 非 md），zh/ 的 232 个中文
+    md 同路径覆盖；10 个未译功能页（skip 清单）显示英文原文并在页脚标注
+    提示——全站链接零 404，与「永不追平全量」的增量同步机制契合；
+  - **Hugo 锁定 0.148.2 extended**：0.121–0.146 存在模块合并丢失项目
+    `[languages]` 配置的缺陷，0.148+ 需覆盖 docsy 自带的 npm 兼容挂载
+    （脚本已处理），0.162+ 默认拒绝 content 中的 HTML 文件（Dokka
+    api-docs 依赖该行为）；
+  - **中文 UI**：语言键取 `zh-cn`，复用 docsy 自带的 `i18n/zh-cn.toml`
+    文案（搜索框、分页等）；
+  - **页脚声明与「查看英文原文」链接**由 layout override 注入（读取译文
+    frontmatter 的 `source_url`），**不污染 zh/ 源文件**；
+  - 上游 CNAME（protobuf.dev）、Google Analytics、GCS 自定义搜索均已移除；
+    搜索使用 docsy 自带 Lunr 离线索引（英文搜索效果好，中文分词能力有限，
+    属已知限制）。
 
 ## 持续更新
 
