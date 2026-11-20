@@ -221,11 +221,11 @@
       "translator": "agent"
     },
     "news/2022-08-03.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "0a6bb06b7ba10210e7d501e264e4e023ea29fcbe",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2023-04-11.md": {
       "status": "translated",
@@ -284,11 +284,11 @@
       "translator": "agent"
     },
     "news/2023-09-15.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "63c1d4ceb71051504aadd464daebf3b679b8d973",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2023-10-10.md": {
       "status": "translated",
@@ -298,11 +298,11 @@
       "translator": "agent"
     },
     "news/2023-12-05.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "4c68047eefeccb7822458b57f5b322aa3e3dce62",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2023-12-13.md": {
       "status": "translated",
@@ -312,18 +312,18 @@
       "translator": "agent"
     },
     "news/2023-12-27.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "c5fdb150c9cdb1279a690bc0388f449abe00d8c1",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2024-01-05.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "07d7d84ac9eb75786f492b4fe9305ead796a6762",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2024-01-31.md": {
       "status": "translated",
@@ -347,18 +347,18 @@
       "translator": "agent"
     },
     "news/2024-06-26.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "59300675d40774d1621e10484d70e9e36a974f8b",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2024-10-01.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "d56ddfcd7a3296c63072409cb15cae10cc98fff5",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2024-10-02.md": {
       "status": "translated",
@@ -368,11 +368,11 @@
       "translator": "agent"
     },
     "news/2024-11-07.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "008b57479a389b1bca2899fe659f6f17fa812e46",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2024-12-04.md": {
       "status": "translated",
@@ -396,11 +396,11 @@
       "translator": "agent"
     },
     "news/2025-01-23.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "a564f03eb142cca550c99fbbbe43538d532717d2",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2025-03-18.md": {
       "status": "translated",
@@ -438,11 +438,11 @@
       "translator": "agent"
     },
     "news/2026-01-16.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "ac74397be9ea792271ab461cdf8275f9cc8cc1b0",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/2026-03-13.md": {
       "status": "translated",
@@ -530,11 +530,11 @@
       "translator": "agent"
     },
     "news/v24.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "6fee7805a40c93a02d45e36a4c49c5c050f96438",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "news/v25.md": {
       "status": "translated",
@@ -579,11 +579,11 @@
       "translator": "agent"
     },
     "news/v34.md": {
-      "status": "pending",
+      "status": "translated",
       "upstream_sha": "9b0d8fd61dbb194acbb26ae1039347c38a860687",
       "upstream_commit": "f72a6a648b34e9e098cbce1519bc9c8139105d66",
-      "translated_at": null,
-      "translator": null
+      "translated_at": "2026-11-21",
+      "translator": "agent"
     },
     "overview.md": {
       "status": "translated",
