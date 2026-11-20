@@ -34,10 +34,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Checkout upstream site source（按 manifest last_synced_commit 锁定，与译文锚点强一致）
+        run: |
+          git clone --no-checkout --filter=blob:none \
+            https://github.com/protocolbuffers/protocolbuffers.github.io.git .upstream
+          COMMIT=$(python -c "import json;print(json.load(open('manifest.json'))['last_synced_commit'])")
+          git -C .upstream checkout --force "$COMMIT"
+
       - name: Setup Go（Hugo modules 拉取 docsy）
         uses: actions/setup-go@v5
         with:
           go-version: "1.22"
+          cache: false
 
       - name: Setup Node
         uses: actions/setup-node@v4
