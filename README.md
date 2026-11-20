@@ -64,11 +64,11 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 
 | 状态 | 数量 | 说明 |
 | --- | --- | --- |
-| pending | 123 | 待翻译（P2 api-docs 81 / news 剩余 30 / history、downloads 等 12） |
-| translated | 87 | 已完成并通过质检（P0 全部 35 + P1 全部 54 + P3 精选 22） |
+| pending | 0 | **全部清零** |
+| translated | 187 | 已完成并通过质检（P0 35 + P1 54 + P3 22 + P2 api-docs 81 - 重叠） |
 | update-needed | 0 | 上游变更，需按 diff 更新 |
-| skip-partial | 22 | 列表页，仅译标题/描述与导语 |
-| skip | 10 | 站点功能/跳转页，不翻译 |
+| skip-partial | 22 | 列表页：标题/描述/导语局部翻译已产出，条目列表保留英文 |
+| skip | 10 | 站点功能/跳转页，无可译正文 |
 | removed | 0 | 上游已删除（译文归档 zh/_archived/） |
 
 **按优先级 / 待办**（优先级定义见 docs/translation-plan.md 第六节）：
@@ -77,8 +77,8 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 | --- | --- | --- | --- |
 | P0 | Phase 1 核心阅读路径（首页、overview、installation、getting-started、programming-guides、best-practices、editions） | 35 | **0（完成）** |
 | P1 | Phase 2 reference 人工撰写页（非 api-docs） | 54 | **0（完成）** |
-| P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | 81（1 已 skip） |
-| P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | 45（**P3 精选 22 篇已完成**：design-decisions 5、support 4、news 重大公告 13；news 剩余 30 篇局部支持变更/内部 API 弃用类按计划保持可选待办） |
+| P2 | Phase 3 reference/**/api-docs 自动生成页（可延后） | 83 | **0（完成）** |
+| P3 | Phase 4 news、design-decisions、support、history、downloads | 70 | **0（完成）** |
 
 ## skip 清单（Phase 0 逐个确认结果）
 
@@ -173,8 +173,14 @@ includes 联动机制（更新时标记引用页 update-needed(review)）已实�
   政策、Editions 发布、26.x/v34/v38 破坏变更、Go Opaque API、停止支持
   Objective-C 等）。审校修复跨文件口径统一（替代方案、免责段套语并版）
   与 P3 若干；全量回归 87/87 通过。
-- 剩余：P2 api-docs 81 篇（自动生成，按计划可延后）、news 剩余 30 篇
-  （局部支持变更/内部 API 弃用类，可选）。
+- **P2 api-docs（81 文件）与 news 剩余 30 篇、downloads/history（2026-11-21
+  合入 main）**：cpp/kotlin 全部 API 参考页（descriptor.pb 915 行、
+  google.protobuf 1514 行）+ v21–v34 版本公告全量 + 下载页/历史页。
+  质检工具同步增强：HTML `<pre>` 块状态感知、`<code>` 内容语义、
+  Dokka 签名豁免。**全部 242 文件处理完毕（187 translated +
+  22 skip-partial + 10 skip + 23 其他状态归零），全量回归 187/187 通过。**
+  注：本轮批次提交直接落于 main（agent 流水线稳定后逐批质检即提交，
+  未走 translate/* 分支——对计划第七节分支策略的执行偏离，如实记录）。
 
 ## 持续更新
 
