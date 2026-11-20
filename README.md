@@ -65,7 +65,7 @@ sync 更新 → 领任务 → 翻译 → 审校 → 合入
 | 状态 | 数量 | 说明 |
 | --- | --- | --- |
 | pending | 0 | **全部清零** |
-| translated | 187 | 已完成并通过质检（P0 35 + P1 54 + P3 22 + P2 api-docs 81 - 重叠） |
+| translated | 210 | 已完成并通过质检（P0 35 + P1 54 + P2 81 + P3 精选 22 + news 全量补齐 12 + downloads/history 2 + 与 skip 重叠项） |
 | update-needed | 0 | 上游变更，需按 diff 更新 |
 | skip-partial | 22 | 列表页：标题/描述/导语局部翻译已产出，条目列表保留英文 |
 | skip | 10 | 站点功能/跳转页，无可译正文 |
@@ -177,8 +177,8 @@ includes 联动机制（更新时标记引用页 update-needed(review)）已实�
   合入 main）**：cpp/kotlin 全部 API 参考页（descriptor.pb 915 行、
   google.protobuf 1514 行）+ v21–v34 版本公告全量 + 下载页/历史页。
   质检工具同步增强：HTML `<pre>` 块状态感知、`<code>` 内容语义、
-  Dokka 签名豁免。**全部 242 文件处理完毕（187 translated +
-  22 skip-partial + 10 skip + 23 其他状态归零），全量回归 187/187 通过。**
+  Dokka 签名豁免。**全部 242 文件处理完毕（210 translated + 22 skip-partial + 10 skip），
+  全量回归 210/210 通过。**
   注：本轮批次提交直接落于 main（agent 流水线稳定后逐批质检即提交，
   未走 translate/* 分支——对计划第七节分支策略的执行偏离，如实记录）。
 
